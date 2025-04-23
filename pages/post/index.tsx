@@ -12,12 +12,12 @@ import { SITE_NAME } from "@/lib/constants";
 const cx = classnames.bind(style);
 
 type Props = {
-  posts: PostType[];
+  allPosts: PostType[];
   morePosts: PostType[];
   preview?: boolean;
 };
 
-export default function Post({ posts }: Props) {
+export default function Post({ allPosts }: Props) {
   const router = useRouter();
   const title = `${SITE_NAME} | Post`;
   // if (!router.isFallback && !project?.slug) {
@@ -31,12 +31,12 @@ export default function Post({ posts }: Props) {
         <>
           <CustomHead type="home" />
           <div className={cx("container", "-list")}>
-            <Header />
+            <Header postList={allPosts} />
             <div className={cx("inner")}>
               <article>
                 <SectionTitle title="Posts"></SectionTitle>
                 <div className={cx("project_list")}>
-                  <PostList postList={posts}></PostList>
+                  <PostList postList={allPosts}></PostList>
                 </div>
               </article>
             </div>
@@ -59,21 +59,11 @@ type Params = {
 export async function getStaticProps(props: any) {
   // console.log(props);
   const allPosts = await getPosts({
-    fields: [
-      "title",
-      "date",
-      "slug",
-      "author",
-      "coverImage",
-      "description",
-      "ogImage",
-      "tag",
-      "readingTime",
-    ],
+    fields: ["title", "date", "slug", "author", "coverImage", "description", "ogImage", "tag", "readingTime"],
   });
   return {
     props: {
-      posts: allPosts,
+      allPosts,
     },
   };
 }

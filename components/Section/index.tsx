@@ -19,7 +19,7 @@ export const Section = ({ title, moreLink, children }: SectoinTitleProps) => {
         <SectionTitle title={title} />
         {moreLink && (
           <Link className={cx("more_link")} href={moreLink}>
-            more <span className="blind">{title}</span>
+            더보기 <span className="blind">{title}</span>
           </Link>
         )}
       </div>

@@ -17,7 +17,7 @@ type Props = {
   preview?: boolean;
 };
 
-export default function Post({ posts }: Props) {
+export default function Post({ allPosts }: Props) {
   const router = useRouter();
   const title = `${SITE_NAME} | Post`;
   // if (!router.isFallback && !project?.slug) {
@@ -31,12 +31,12 @@ export default function Post({ posts }: Props) {
         <>
           <CustomHead type="home" />
           <div className={cx("container", "-list")}>
-            <Header />
+            <Header postList={allPosts} />
             <div className={cx("inner")}>
               <article>
-                <SectionTitle title="Posts"></SectionTitle>
+                <SectionTitle title="게시물"></SectionTitle>
                 <div className={cx("project_list")}>
-                  <PostList postList={posts}></PostList>
+                  <PostList postList={allPosts.slice(10)}></PostList>
                 </div>
               </article>
             </div>
@@ -62,7 +62,7 @@ export async function getStaticProps(props: any) {
   });
   return {
     props: {
-      posts: allPosts,
+      allPosts,
     },
   };
 }

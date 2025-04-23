@@ -15,6 +15,7 @@ import { SITE_NAME } from "@/lib/constants";
 
 const cx = classnames.bind(style);
 type Props = {
+  allPosts: PostType[];
   posts: PostType[];
   page: number;
   totalPageCount: number;
@@ -29,6 +30,7 @@ export const PAGE_KEY = `__${SITE_NAME}_CURRENT_PAGE__`;
 export const PAGEGROUP_KEY = `__${SITE_NAME}_CURRENT_PAGE_GROUP__`;
 
 export default function Post({
+  allPosts,
   posts,
   page,
   totalPageCount,
@@ -64,7 +66,7 @@ export default function Post({
         <>
           <CustomHead type="post" />
           <div className={cx("container", "-list")}>
-            <Header />
+            <Header postList={allPosts} />
             <div className={cx("inner")}>
               <article>
                 <SectionTitle title="Posts"></SectionTitle>
@@ -120,6 +122,10 @@ type Params = {
 };
 
 export async function getStaticProps({ params }: Params) {
+  const allPosts = await getPosts({
+    fields: ["title", "date", "slug", "author", "coverImage", "description", "ogImage", "tag", "readingTime"],
+  });
+
   const res: any = await getPosts({
     fields: [
       "title",
@@ -137,7 +143,7 @@ export async function getStaticProps({ params }: Params) {
     page: params.page,
   });
   return {
-    props: { ...res, page: params.page },
+    props: { ...res, page: params.page, allPosts },
   };
 }
 

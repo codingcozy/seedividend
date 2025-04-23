@@ -18,9 +18,9 @@ export default function Home({ allPosts }: HomeProps) {
     <>
       <CustomHead type="home" />
       <main className={cx("container")}>
-        <Header />
+        <Header postList={allPosts} />
         <div className={cx("content")}>
-          <Section title="Posts" moreLink="/posts/1">
+          <Section title="게시물" moreLink="/posts/1">
             <PostList postList={allPosts}></PostList>
           </Section>
         </div>
@@ -32,7 +32,6 @@ export default function Home({ allPosts }: HomeProps) {
 export const getStaticProps = async () => {
   const allPosts = await getPosts({
     fields: ["title", "date", "slug", "author", "coverImage", "description", "ogImage", "tag", "readingTime"],
-    count: 10,
   });
   return {
     props: { allPosts },

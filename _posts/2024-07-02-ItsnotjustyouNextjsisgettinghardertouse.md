@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 사용이 점점 더 어려워지는 이유"
+title: "Nextjs 사용이 점점 더 어려워지는 이유2"
 description: ""
 coverImage: "/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png"
 date: 2024-07-02 21:52

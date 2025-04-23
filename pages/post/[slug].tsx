@@ -26,13 +26,14 @@ import markdownToHtml from "@/lib/markdownToHtml";
 const cx = classnames.bind(style);
 const components = { Image, GoogleAd };
 type Props = {
+  allPosts: PostType[];
   post: PostType;
   morePosts: PostType[];
   preview?: boolean;
   content: any;
 };
 
-export default function Post({ post, content }: Props) {
+export default function Post({ allPosts, post, content }: Props) {
   const router = useRouter();
 
   if (!router.isFallback && !post?.slug) {
@@ -46,7 +47,7 @@ export default function Post({ post, content }: Props) {
       ) : (
         <>
           <CustomHead type="post" post={post} />
-          <Header></Header>
+          <Header postList={allPosts}></Header>
           <main className={cx("container")}>
             <div className={cx("inner")}>
               <h1 className={cx("post_title")}>{post.title}</h1>
@@ -124,6 +125,10 @@ type Params = {
 };
 
 export async function getStaticProps({ params }: Params) {
+  const allPosts = await getPosts({
+    fields: ["title"],
+  });
+
   const [post]: any = await getPosts({
     file: params.slug,
     fields: [
@@ -156,6 +161,7 @@ export async function getStaticProps({ params }: Params) {
         ...post,
       },
       content,
+      allPosts,
     },
   };
 }
