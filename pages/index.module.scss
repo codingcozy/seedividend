@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+.side_bar {
+  flex-shrink: 0;
+  width: 280px;
+}
+
 .section_wrap {
   & + & {
     margin-top: 20px;

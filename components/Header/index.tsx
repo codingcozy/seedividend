@@ -3,19 +3,21 @@ import style from "./Header.module.scss";
 import classnames from "classnames/bind";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { AUTHOR } from "@/lib/constants";
+import { AUTHOR, CATEGORY } from "@/lib/constants";
 import PostType from "@/interfaces/post";
-import { FaSearch } from "react-icons/fa"; // react-icons 설치 필요
 
 const cx = classnames.bind(style);
 
-const Header = ({ postList }: { postList: PostType[] }) => {
+const Header = ({ postList, categoryList }: { postList: PostType[]; categoryList: string[] }) => {
   const router = useRouter();
   const [posts, setPosts] = useState<PostType[]>(postList);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<PostType[]>([]);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
+
+  // 개발 환경 감지 (로컬에서만 true)
+  const isLocalDevelopment = process.env.NODE_ENV === "development";
 
   // 검색어 변경 시 결과 필터링
   useEffect(() => {
@@ -71,12 +73,26 @@ const Header = ({ postList }: { postList: PostType[] }) => {
     return text.replace(regex, "<mark>$1</mark>");
   };
 
+  // 글쓰기 페이지로 이동
+  const handleWriteClick = () => {
+    router.push("/admin");
+  };
+
   return (
     <header className={cx("header")}>
       <div className={cx("inner")}>
-        <strong className={cx("title")}>
-          <Link href={`/`}>{AUTHOR}</Link>
-        </strong>
+        <div className={cx("left_area")}>
+          <strong className={cx("title")}>
+            <Link href={`/`}>{AUTHOR}</Link>
+          </strong>
+          <div className={cx("category_list")}>
+            {categoryList?.map((category, i) => (
+              <Link key={i} href={`/posts/${category}/1`} className={cx("nav_item")}>
+                {CATEGORY[category]}
+              </Link>
+            ))}
+          </div>
+        </div>
         <nav className={cx("nav_area")}>
           <div className={cx("search_container")} ref={searchRef}>
             <div className={cx("search_input_wrapper")}>
@@ -93,12 +109,10 @@ const Header = ({ postList }: { postList: PostType[] }) => {
               />
               <button type="button" className={cx("search_button")}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 16 16">
-                  <g clip-path="url(#a)">
-                    <path
-                      fill="#000"
-                      d="M14 12.94 10.16 9.1c1.25-1.76 1.1-4.2-.48-5.78a4.49 4.49 0 0 0-6.36 0 4.49 4.49 0 0 0 0 6.36 4.486 4.486 0 0 0 5.78.48L12.94 14 14 12.94ZM4.38 8.62a3 3 0 0 1 0-4.24 3 3 0 0 1 4.24 0 3 3 0 0 1 0 4.24 3 3 0 0 1-4.24 0Z"
-                    />
-                  </g>
+                  <path
+                    fill="#000"
+                    d="M14 12.94 10.16 9.1c1.25-1.76 1.1-4.2-.48-5.78a4.49 4.49 0 0 0-6.36 0 4.49 4.49 0 0 0 0 6.36 4.486 4.486 0 0 0 5.78.48L12.94 14 14 12.94ZM4.38 8.62a3 3 0 0 1 0-4.24 3 3 0 0 1 4.24 0 3 3 0 0 1 0 4.24 3 3 0 0 1-4.24 0Z"
+                  />
                   <defs>
                     <clipPath id="a">
                       <path fill="#fff" d="M0 0h16v16H0z" />
@@ -132,9 +146,12 @@ const Header = ({ postList }: { postList: PostType[] }) => {
               </div>
             )}
           </div>
-          <Link href={`/posts/1`} className={cx("nav_item")}>
-            정보
-          </Link>
+
+          {isLocalDevelopment && (
+            <button onClick={handleWriteClick} className={cx("write_button")} aria-label="글쓰기">
+              <span className={cx("write_text")}>관리</span>
+            </button>
+          )}
         </nav>
       </div>
     </header>

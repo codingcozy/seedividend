@@ -13,6 +13,7 @@ type PostType = {
   content: string;
   tag: string[];
   readingTime: number;
+  category: string;
 };
 
 export default PostType;

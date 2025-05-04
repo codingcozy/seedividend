@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { getPosts } from "@/lib/api";
+import { getPostCategories, getPosts } from "@/lib/api";
 import Header from "@/components/Header";
 import style from "./posts.module.scss";
 import classnames from "classnames/bind";
@@ -12,12 +12,13 @@ import { SITE_NAME } from "@/lib/constants";
 const cx = classnames.bind(style);
 
 type Props = {
+  categoryList: string[];
   allPosts: PostType[];
   morePosts: PostType[];
   preview?: boolean;
 };
 
-export default function Post({ allPosts }: Props) {
+export default function Post({ allPosts, categoryList }: Props) {
   const router = useRouter();
   const title = `${SITE_NAME} | Post`;
   // if (!router.isFallback && !project?.slug) {
@@ -31,7 +32,7 @@ export default function Post({ allPosts }: Props) {
         <>
           <CustomHead type="home" />
           <div className={cx("container", "-list")}>
-            <Header postList={allPosts} />
+            <Header postList={allPosts} categoryList={categoryList} />
             <div className={cx("inner")}>
               <article>
                 <SectionTitle title="Posts"></SectionTitle>
@@ -57,13 +58,16 @@ type Params = {
 };
 
 export async function getStaticProps(props: any) {
-  // console.log(props);
   const allPosts = await getPosts({
     fields: ["title", "date", "slug", "author", "coverImage", "description", "ogImage", "tag", "readingTime"],
   });
+
+  const categoryList = await getPostCategories();
+
   return {
     props: {
       allPosts,
+      categoryList,
     },
   };
 }

@@ -1,0 +1,28 @@
+@import "../../scss/utils";
+
+.category_list {
+  display: flex;
+  margin: 16px -16px;
+}
+
+.category_item {
+}
+
+.link {
+  display: block;
+  padding: 0 16px;
+  font-size: 18px;
+  line-height: 22px;
+
+  span {
+    padding: 8px 0;
+  }
+
+  &:hover span {
+    border-bottom: 2px solid $text-color;
+  }
+
+  &[aria-current="true"] span {
+    border-bottom: 2px solid $text-color;
+  }
+}

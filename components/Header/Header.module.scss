@@ -21,6 +21,12 @@
   padding: 0 20px;
 }
 
+.left_area {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
 .title {
   font-weight: 600;
   font-size: 22px;
@@ -30,10 +36,20 @@
   color: $text-color;
 }
 
+.category_list {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
 .nav_area {
   display: flex;
   column-gap: 20px;
   align-items: center;
+}
+
+.nav_item {
+  font-size: 15px;
 }
 
 // ...기존 스타일...
@@ -203,4 +219,7 @@
     width: 100%;
     min-width: unset;
   }
+}
+
+.category {
 }

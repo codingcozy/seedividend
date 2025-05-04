@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
-import { getPosts } from "@/lib/api";
+import { getPostCategories, getPosts } from "@/lib/api";
 import type PostType from "@/interfaces/post";
 import Header from "@/components/Header";
 import style from "./posts.module.scss";
@@ -26,6 +26,7 @@ import markdownToHtml from "@/lib/markdownToHtml";
 const cx = classnames.bind(style);
 const components = { Image, GoogleAd };
 type Props = {
+  categoryList: string[];
   allPosts: PostType[];
   post: PostType;
   morePosts: PostType[];
@@ -33,7 +34,7 @@ type Props = {
   content: any;
 };
 
-export default function Post({ allPosts, post, content }: Props) {
+export default function Post({ allPosts, post, content, categoryList }: Props) {
   const router = useRouter();
 
   if (!router.isFallback && !post?.slug) {
@@ -47,7 +48,7 @@ export default function Post({ allPosts, post, content }: Props) {
       ) : (
         <>
           <CustomHead type="post" post={post} />
-          <Header postList={allPosts}></Header>
+          <Header postList={allPosts} categoryList={categoryList}></Header>
           <main className={cx("container")}>
             <div className={cx("inner")}>
               <h1 className={cx("post_title")}>{post.title}</h1>
@@ -146,6 +147,8 @@ export async function getStaticProps({ params }: Params) {
     ],
   });
 
+  const categoryList = await getPostCategories();
+
   // const content = await serialize(post.content, {
   //   mdxOptions: {
   //     rehypePlugins: [rehypeHighlight],
@@ -162,6 +165,7 @@ export async function getStaticProps({ params }: Params) {
       },
       content,
       allPosts,
+      categoryList,
     },
   };
 }

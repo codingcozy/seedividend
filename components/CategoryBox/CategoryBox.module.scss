@@ -1,0 +1,27 @@
+@import "../../scss/utils";
+
+.category_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.category_item {
+}
+
+.link {
+  display: block;
+  padding: 0 16px;
+  font-size: 18px;
+  line-height: 22px;
+
+  span {
+    padding: 8px 0;
+  }
+
+  &:hover span {
+  }
+
+  &[aria-current="true"] span {
+    color: $point-color;
+  }
+}

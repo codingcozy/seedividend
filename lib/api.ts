@@ -3,11 +3,15 @@ import { join } from "path";
 import matter from "gray-matter";
 import Project from "@/interfaces/project";
 import globby from "globby";
-import { PAGEGROUP_KEY, PAGE_SIZE, PER_PAGE_SIZE } from "@/pages/posts/[page]";
 import PostType from "@/interfaces/post";
+import { PAGE_SIZE, PER_PAGE_SIZE } from "@/pages/posts/[category]/[page]";
 
 const postsDirectory = join(process.cwd(), "_posts");
+const postsCategoryDirectory = (category: string) => join(process.cwd(), `_posts/${category}`);
 
+export function getPostCategories() {
+  return fs.readdirSync(postsDirectory).filter((v) => v !== ".DS_Store");
+}
 export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
@@ -79,6 +83,7 @@ export function getPostByFile(file: string, fields: string[] = []) {
 }
 
 interface getPostsProps {
+  category?: string;
   tag?: string;
   fields: string[];
   file?: string;
@@ -86,8 +91,8 @@ interface getPostsProps {
   page?: string;
 }
 
-export async function getPosts({ tag, file = "**", fields = [], count, page }: getPostsProps) {
-  const files = await globby([`_posts/${file}.md`]);
+export async function getPosts({ category = "**", tag, file = "**", fields = [], count, page }: getPostsProps) {
+  const files = await globby([`_posts/${category}/${file}.md`]);
   let posts = files
     .map((file) => getPostByFile(file, fields))
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));

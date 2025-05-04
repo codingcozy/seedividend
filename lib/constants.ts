@@ -16,3 +16,9 @@ export const SITE_DESCRIPTION: { [key: string]: string } = {
   en: "I develop websites, games and apps with HTML, CSS and JS.",
   ja: "HTML、CSS、JSでウェブサイト、ゲーム、アプリを開発しています。",
 };
+
+export const CATEGORY: Record<string, string> = {
+  money: "경제",
+  issue: "이슈",
+  info: "정보",
+};
