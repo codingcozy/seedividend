@@ -11,3 +11,9 @@ set -e
 # build
 yarn build
 
+
+git checkout main
+git add .
+git commit -m "deploy"
+git push origin main
+

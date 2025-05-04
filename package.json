@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build && next export ",
     "deploy": "sh scripts/deploy.sh",
-    "start": "nodemon server/server.js",
+    "start": "nodemon --ignore out/ --ignore .next/",
     "start:next": "next dev",
     "start:both": "concurrently \"npm run start\" \"npm run start:next\"",
     "lint": "next lint"
