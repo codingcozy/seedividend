@@ -6,7 +6,7 @@ import classnames from "classnames/bind";
 import PostType from "@/interfaces/post";
 import CustomHead from "@/components/CustomHead";
 import { SITE_NAME } from "@/lib/constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const cx = classnames.bind(style);
@@ -25,6 +25,16 @@ export default function Post({ allPosts, categoryList }: Props) {
   const [deletingPosts, setDeletingPosts] = useState<string[]>([]);
   const [posts, setPosts] = useState<PostType[]>(allPosts);
   const [isPublishing, setIsPublishing] = useState(false);
+  const [isAuthorized, setIsAuthorized] = useState(false);
+
+  // Check if user is accessing locally on component mount
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "development") {
+      router.replace("/");
+    } else {
+      setIsAuthorized(true);
+    }
+  }, [router]);
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -165,6 +175,11 @@ export default function Post({ allPosts, categoryList }: Props) {
 
   const isDeleting = (slug: string) => deletingPosts.includes(slug);
 
+  // Only render content if authorized
+  if (!isAuthorized) {
+    return <div>Checking authorization...</div>;
+  }
+
   return (
     <>
       {router.isFallback ? (
@@ -254,16 +269,8 @@ export default function Post({ allPosts, categoryList }: Props) {
   );
 }
 
-type Params = {
-  params: {
-    slug: string;
-  };
-  query: {
-    page: string;
-  };
-};
-
-export async function getStaticProps(props: any) {
+// Switch back to getStaticProps for compatibility with static export
+export async function getStaticProps() {
   const allPosts = await getPosts({
     fields: [
       "title",

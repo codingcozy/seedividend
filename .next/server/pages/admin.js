@@ -110,6 +110,15 @@ function Post({ allPosts , categoryList  }) {
     const [deletingPosts, setDeletingPosts] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)([]);
     const [posts, setPosts] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(allPosts);
     const [isPublishing, setIsPublishing] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(false);
+    const [isAuthorized, setIsAuthorized] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(false);
+    // Check if user is accessing locally on component mount
+    (0,react__WEBPACK_IMPORTED_MODULE_7__.useEffect)(()=>{
+        if (true) {
+            router.replace("/");
+        } else {}
+    }, [
+        router
+    ]);
     const formatDate = (dateString)=>{
         const date = new Date(dateString);
         return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
@@ -232,6 +241,12 @@ function Post({ allPosts , categoryList  }) {
         }
     };
     const isDeleting = (slug)=>deletingPosts.includes(slug);
+    // Only render content if authorized
+    if (!isAuthorized) {
+        return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+            children: "Checking authorization..."
+        });
+    }
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: router.isFallback ? " Loading…" : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
             children: [
@@ -368,7 +383,8 @@ function Post({ allPosts , categoryList  }) {
         })
     });
 }
-async function getStaticProps(props) {
+// Switch back to getStaticProps for compatibility with static export
+async function getStaticProps() {
     const allPosts = await (0,_lib_api__WEBPACK_IMPORTED_MODULE_2__/* .getPosts */ .Jq)({
         fields: [
             "title",
