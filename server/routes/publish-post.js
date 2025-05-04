@@ -21,15 +21,21 @@ router.post("/", async (req, res) => {
     // Execute deploy script
     console.log("Executing deploy script...");
     const deployScriptPath = path.join(rootDir, "scripts", "deploy.sh");
+    const deployResult = await execPromise(`bash ${deployScriptPath}`, { cwd: rootDir });
 
-    const { stdout, stderr } = await execPromise(`bash ${deployScriptPath}`, { cwd: rootDir });
+    // Execute git-push script
+    console.log("Executing git-push script...");
+    const gitPushScriptPath = path.join(rootDir, "scripts", "git-push.sh");
+    const gitPushResult = await execPromise(`bash ${gitPushScriptPath}`, { cwd: rootDir });
 
     res.status(200).json({
       success: true,
       message: "Blog published successfully",
       details: {
-        stdout,
-        stderr: stderr || null,
+        deployStdout: deployResult.stdout,
+        deployStderr: deployResult.stderr || null,
+        gitPushStdout: gitPushResult.stdout,
+        gitPushStderr: gitPushResult.stderr || null,
       },
     });
   } catch (error) {
