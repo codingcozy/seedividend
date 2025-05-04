@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ek_4_RNTEXbWSZWb_10bD/_buildManifest.js",
-    "static/ek_4_RNTEXbWSZWb_10bD/_ssgManifest.js"
+    "static/3Hg1HWjRJRscYN52dI_It/_buildManifest.js",
+    "static/3Hg1HWjRJRscYN52dI_It/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -40,8 +40,8 @@
       "static/chunks/main-cf4a52eec9a970a0.js",
       "static/chunks/564-7605cc2aa5c49949.js",
       "static/chunks/526-b664f8f5728a93ac.js",
-      "static/css/265f296cce8f413f.css",
-      "static/chunks/pages/admin-1370644c31fe8aa7.js"
+      "static/css/7e269f36a403be8f.css",
+      "static/chunks/pages/admin-7860fec52379fbe0.js"
     ],
     "/admin/create": [
       "static/chunks/webpack-ee6df16fdc6dae4d.js",
@@ -49,7 +49,7 @@
       "static/chunks/main-cf4a52eec9a970a0.js",
       "static/chunks/564-7605cc2aa5c49949.js",
       "static/css/46a4f0fcea3404a8.css",
-      "static/chunks/pages/admin/create-f441355912f2b794.js"
+      "static/chunks/pages/admin/create-a18fbca1a093b71c.js"
     ],
     "/post": [
       "static/chunks/webpack-ee6df16fdc6dae4d.js",

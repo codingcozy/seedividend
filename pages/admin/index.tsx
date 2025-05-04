@@ -5,9 +5,10 @@ import style from "./admin.module.scss";
 import classnames from "classnames/bind";
 import PostType from "@/interfaces/post";
 import CustomHead from "@/components/CustomHead";
-import { SITE_NAME } from "@/lib/constants";
-import { useState, useEffect } from "react";
+import { CATEGORY, SITE_NAME } from "@/lib/constants";
+import { useState } from "react";
 import Link from "next/link";
+import useAdminAuth from "@/hooks/useAdminAuth";
 
 const cx = classnames.bind(style);
 
@@ -25,16 +26,9 @@ export default function Post({ allPosts, categoryList }: Props) {
   const [deletingPosts, setDeletingPosts] = useState<string[]>([]);
   const [posts, setPosts] = useState<PostType[]>(allPosts);
   const [isPublishing, setIsPublishing] = useState(false);
-  const [isAuthorized, setIsAuthorized] = useState(false);
 
-  // Check if user is accessing locally on component mount
-  useEffect(() => {
-    if (process.env.NODE_ENV !== "development") {
-      router.replace("/");
-    } else {
-      setIsAuthorized(true);
-    }
-  }, [router]);
+  // Use the admin auth hook
+  const { isAuthorized, isLoading } = useAdminAuth();
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -175,9 +169,13 @@ export default function Post({ allPosts, categoryList }: Props) {
 
   const isDeleting = (slug: string) => deletingPosts.includes(slug);
 
-  // Only render content if authorized
+  // Show loading or unauthorized message
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
   if (!isAuthorized) {
-    return <div>Checking authorization...</div>;
+    return <div>Unauthorized access</div>;
   }
 
   return (
@@ -236,7 +234,7 @@ export default function Post({ allPosts, categoryList }: Props) {
                         {post.title}
                       </Link>
                       <div className={cx("post_meta")}>
-                        <span className={cx("post_category")}>{post.category}</span>
+                        <span className={cx("post_category")}>{CATEGORY[post.category]}</span>
                         <span className={cx("separator")}>•</span>
                         <span className={cx("post_date")}>{formatDate(post.date)}</span>
                       </div>

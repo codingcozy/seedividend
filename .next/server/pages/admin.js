@@ -21,7 +21,6 @@ module.exports = {
 	"post_meta": "admin_post_meta__U_4y9",
 	"post_category": "admin_post_category__QaYM3",
 	"separator": "admin_separator__vyCi5",
-	"post_date": "admin_post_date__Xfs3v",
 	"profile_wrap": "admin_profile_wrap__EVWVv",
 	"profile_image_wrap": "admin_profile_image_wrap__XAo1n",
 	"textarea": "admin_textarea__bh9P0",
@@ -67,6 +66,46 @@ module.exports = {
 
 /***/ }),
 
+/***/ 7735:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ useAdminAuth)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/**
+ * Custom hook to handle admin page authorization
+ * Restricts access to admin pages in production mode
+ * @returns An object containing authorization status
+ */ function useAdminAuth() {
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_1__.useRouter)();
+    const [isAuthorized, setIsAuthorized] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+    const [isLoading, setIsLoading] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
+    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{
+        // In development mode, allow access
+        // In production mode, redirect to home
+        if (true) {
+            router.replace("/");
+        } else {}
+        setIsLoading(false);
+    }, [
+        router
+    ]);
+    return {
+        isAuthorized,
+        isLoading
+    };
+}
+
+
+/***/ }),
+
 /***/ 7051:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -82,8 +121,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4011);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6853);
-/* harmony import */ var _admin_module_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7475);
-/* harmony import */ var _admin_module_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_admin_module_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _admin_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(7475);
+/* harmony import */ var _admin_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_admin_module_scss__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3284);
 /* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(classnames_bind__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_CustomHead__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2862);
@@ -92,6 +131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _hooks_useAdminAuth__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7735);
 
 
 
@@ -102,7 +142,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const cx = classnames_bind__WEBPACK_IMPORTED_MODULE_4___default().bind((_admin_module_scss__WEBPACK_IMPORTED_MODULE_9___default()));
+
+const cx = classnames_bind__WEBPACK_IMPORTED_MODULE_4___default().bind((_admin_module_scss__WEBPACK_IMPORTED_MODULE_10___default()));
 function Post({ allPosts , categoryList  }) {
     const router = (0,next_router__WEBPACK_IMPORTED_MODULE_1__.useRouter)();
     const title = `${_lib_constants__WEBPACK_IMPORTED_MODULE_6__/* .SITE_NAME */ .px} | Post`;
@@ -110,15 +151,8 @@ function Post({ allPosts , categoryList  }) {
     const [deletingPosts, setDeletingPosts] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)([]);
     const [posts, setPosts] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(allPosts);
     const [isPublishing, setIsPublishing] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(false);
-    const [isAuthorized, setIsAuthorized] = (0,react__WEBPACK_IMPORTED_MODULE_7__.useState)(false);
-    // Check if user is accessing locally on component mount
-    (0,react__WEBPACK_IMPORTED_MODULE_7__.useEffect)(()=>{
-        if (true) {
-            router.replace("/");
-        } else {}
-    }, [
-        router
-    ]);
+    // Use the admin auth hook
+    const { isAuthorized , isLoading  } = (0,_hooks_useAdminAuth__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z)();
     const formatDate = (dateString)=>{
         const date = new Date(dateString);
         return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
@@ -241,10 +275,15 @@ function Post({ allPosts , categoryList  }) {
         }
     };
     const isDeleting = (slug)=>deletingPosts.includes(slug);
-    // Only render content if authorized
+    // Show loading or unauthorized message
+    if (isLoading) {
+        return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+            children: "Loading..."
+        });
+    }
     if (!isAuthorized) {
         return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-            children: "Checking authorization..."
+            children: "Unauthorized access"
         });
     }
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
@@ -337,7 +376,7 @@ function Post({ allPosts , categoryList  }) {
                                                             children: [
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     className: cx("post_category"),
-                                                                    children: post.category
+                                                                    children: _lib_constants__WEBPACK_IMPORTED_MODULE_6__/* .CATEGORY */ .En[post.category]
                                                                 }),
                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                     className: cx("separator"),

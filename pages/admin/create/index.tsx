@@ -5,6 +5,7 @@ import style from "./create.module.scss";
 import classnames from "classnames/bind";
 import CustomHead from "@/components/CustomHead";
 import Link from "next/link";
+import useAdminAuth from "@/hooks/useAdminAuth";
 
 const cx = classnames.bind(style);
 
@@ -13,6 +14,9 @@ type Props = {
 };
 
 export default function CreatePost({ categoryList }: Props) {
+  // Use the admin auth hook
+  const { isAuthorized, isLoading } = useAdminAuth();
+
   const router = useRouter();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
@@ -278,6 +282,15 @@ export default function CreatePost({ categoryList }: Props) {
     document.execCommand(`justify${align}`, false);
     if (editorRef.current) setContent(editorRef.current.innerHTML);
   };
+
+  // Show loading or unauthorized message
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (!isAuthorized) {
+    return <div>Unauthorized access</div>;
+  }
 
   return (
     <>

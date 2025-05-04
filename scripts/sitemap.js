@@ -16,6 +16,7 @@ const pagesSitemapGenerator = async () => {
     "pages/_*.tsx",
     // exclude
     "!pages/_*.tsx",
+    "!pages/admin/_*.tsx",
     "!pages/index.tsx",
     "!pages/[slug].tsx",
     "!pages/**/[slug].tsx",
