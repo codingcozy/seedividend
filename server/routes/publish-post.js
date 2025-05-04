@@ -27,7 +27,6 @@ router.post("/", async (req, res) => {
     res.status(200).json({
       success: true,
       message: "Blog published successfully",
-      timestamp,
       details: {
         stdout,
         stderr: stderr || null,
