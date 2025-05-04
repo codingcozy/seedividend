@@ -41,6 +41,8 @@ router.post("/", async (req, res) => {
       error: error.message || "Unknown error",
       details: error.stderr || null,
     });
+  } finally {
+    console.log("Blog publication process completed.");
   }
 });
 

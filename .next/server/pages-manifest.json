@@ -3,10 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/post": "pages/post.js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/": "pages/index.js",
+  "/post/[slug]": "pages/post/[slug].js",
   "/admin": "pages/admin.js",
+  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/admin/create": "pages/admin/create.js",
   "/404": "pages/404.html"
 }
