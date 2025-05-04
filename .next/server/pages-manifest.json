@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/post": "pages/post.js",
   "/": "pages/index.js",
   "/post/[slug]": "pages/post/[slug].js",
-  "/post": "pages/post.js",
-  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/admin": "pages/admin.js",
+  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/admin/create": "pages/admin/create.js",
   "/404": "pages/404.html"
 }
