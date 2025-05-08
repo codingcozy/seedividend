@@ -3,93 +3,12 @@ import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
 import { generateMarkdownMetadata } from "../utils/markdown-utils.js";
+import { moveImagesToPermStorage } from "./create-post.js";
 
 const router = express.Router();
 
 // 포스트 디렉토리 경로 설정
 const postsDirectory = path.join(process.cwd(), "_posts");
-
-// 텍스트 내 임시 이미지 경로를 영구 저장소로 이동하는 함수
-const moveImagesToPermStorage = async (content, slug) => {
-  // 마크다운 이미지 형식 ![대체텍스트](이미지URL) 찾기
-  const imgRegex = /!\[(.*?)\]\(([^)]+)\)/g;
-  let match;
-  const tempImagePaths = [];
-  const newImagePaths = [];
-
-  // 제목 정규화
-  const sanitizeTitle = (text) => {
-    return text
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, "") // 특수문자 제거
-      .replace(/\s+/g, "-") // 공백을 하이픈으로 변경
-      .replace(/--+/g, "-") // 중복 하이픈 제거
-      .trim(); // 앞뒤 공백 제거
-  };
-
-  const sanitizedTitle = sanitizeTitle(slug);
-
-  // 콘텐츠에서 모든 이미지 경로 추출
-  let newContent = content;
-  let imageIndex = 0;
-
-  while ((match = imgRegex.exec(content)) !== null) {
-    const altText = match[1];
-    const imgSrc = match[2];
-
-    // 임시 이미지 경로인 경우만 처리
-    if (imgSrc.includes("/assets/temp/img/")) {
-      const originalFileName = path.basename(imgSrc);
-      const fileExt = path.extname(originalFileName);
-
-      // temp_img 부분을 제목으로 대체한 새 파일명 생성
-      const newFileName = `${sanitizedTitle}-${imageIndex++}${fileExt}`;
-
-      const tempImagePath = path.join(process.cwd(), "public", imgSrc);
-
-      // 날짜 기반 폴더 생성
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, "0");
-      const dateFolder = `${year}/${month}`;
-
-      const imagesDir = path.join(process.cwd(), "public", "assets", "images");
-      const targetDir = path.join(imagesDir, dateFolder);
-
-      // 폴더 생성
-      try {
-        await fs.mkdir(targetDir, { recursive: true });
-      } catch (err) {
-        if (err.code !== "EEXIST") throw err;
-      }
-
-      // 새 이미지 경로 및 파일명
-      const newImagePath = path.join(targetDir, newFileName);
-      const relativeImagePath = `/assets/images/${dateFolder}/${newFileName}`;
-
-      // 템프 경로와 새 경로 저장
-      tempImagePaths.push(tempImagePath);
-      newImagePaths.push(newImagePath);
-
-      // 콘텐츠 내 이미지 경로 교체 (마크다운 형식 유지)
-      newContent = newContent.replace(`![${altText}](${imgSrc})`, `![${altText}](${relativeImagePath})`);
-    }
-  }
-
-  // 실제 파일 이동
-  for (let i = 0; i < tempImagePaths.length; i++) {
-    try {
-      // 이미지 파일 이동
-      await fs.copyFile(tempImagePaths[i], newImagePaths[i]);
-      await fs.unlink(tempImagePaths[i]); // 임시 파일 삭제
-    } catch (error) {
-      console.error("이미지 이동 중 오류 발생:", error);
-      // 오류가 발생해도 계속 진행
-    }
-  }
-
-  return newContent;
-};
 
 // PUT 요청 처리 - 포스트 업데이트
 router.put("/", async (req, res) => {

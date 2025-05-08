@@ -10,7 +10,7 @@ const markdownDir = path.join(process.cwd(), "_posts");
 const imagesDir = path.join(process.cwd(), "public", "assets", "images");
 
 // 텍스트 내 임시 이미지 경로를 영구 저장소로 이동하는 함수
-const moveImagesToPermStorage = (content, slug) => {
+export const moveImagesToPermStorage = (content, slug) => {
   // 마크다운 이미지 형식 ![대체텍스트](이미지URL) 찾기
   const imgRegex = /!\[(.*?)\]\(([^)]+)\)/g;
   let match;
