@@ -50,6 +50,7 @@
 
 .nav_item {
   font-size: 15px;
+  flex-shrink: 0;
 }
 
 // ...기존 스타일...
@@ -184,8 +185,6 @@
 
 @media (max-width: 768px) {
   .search_input {
-    width: 150px;
-
     &:focus {
       width: 180px;
     }
@@ -199,25 +198,6 @@
 @media (max-width: 480px) {
   .nav_area {
     flex-wrap: wrap;
-  }
-
-  .search_container {
-    margin-left: 0;
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  .search_input {
-    width: 100%;
-
-    &:focus {
-      width: 100%;
-    }
-  }
-
-  .search_dropdown {
-    width: 100%;
-    min-width: unset;
   }
 }
 

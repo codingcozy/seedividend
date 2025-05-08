@@ -19,12 +19,20 @@
   &:hover .title {
     color: #0a8f9e;
   }
+
+  @media (max-width: 674px) {
+    flex-direction: column;
+  }
 }
 
 .thumbnail_wrap {
   flex-shrink: 0;
   width: 300px;
   aspect-ratio: 3/2;
+
+  @media (max-width: 674px) {
+    width: 100%;
+  }
 }
 
 .thumbnail {
@@ -38,6 +46,10 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  @media (max-width: 674px) {
+    padding: 16px 0;
+  }
 }
 
 .profile_area {
