@@ -1,8 +1,9 @@
-const express = require("express");
+import express from "express";
+import multer from "multer";
+import path from "path";
+import fs from "fs";
+
 const router = express.Router();
-const multer = require("multer");
-const path = require("path");
-const fs = require("fs");
 
 // 이미지 저장 디렉토리 확인 및 생성
 const uploadDir = path.join(process.cwd(), "public", "assets", "temp", "img");
@@ -72,4 +73,4 @@ router.post("/", upload.single("image"), (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

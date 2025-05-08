@@ -72,50 +72,6 @@ const GoogleAd = ()=>{
 
 /***/ }),
 
-/***/ 7095:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ markdownToHtml)
-/* harmony export */ });
-/* harmony import */ var rehype_external_links__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3738);
-/* harmony import */ var rehype_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6271);
-/* harmony import */ var remark_parse__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6688);
-/* harmony import */ var remark_rehype__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2509);
-/* harmony import */ var rehype_highlight__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4921);
-/* harmony import */ var remark_gfm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6809);
-/* harmony import */ var rehype_stringify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5390);
-/* harmony import */ var rehype_raw__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1871);
-/* harmony import */ var unified__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(4390);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([rehype_external_links__WEBPACK_IMPORTED_MODULE_0__, rehype_document__WEBPACK_IMPORTED_MODULE_1__, remark_parse__WEBPACK_IMPORTED_MODULE_2__, remark_rehype__WEBPACK_IMPORTED_MODULE_3__, rehype_highlight__WEBPACK_IMPORTED_MODULE_4__, remark_gfm__WEBPACK_IMPORTED_MODULE_5__, rehype_stringify__WEBPACK_IMPORTED_MODULE_6__, rehype_raw__WEBPACK_IMPORTED_MODULE_7__, unified__WEBPACK_IMPORTED_MODULE_8__]);
-([rehype_external_links__WEBPACK_IMPORTED_MODULE_0__, rehype_document__WEBPACK_IMPORTED_MODULE_1__, remark_parse__WEBPACK_IMPORTED_MODULE_2__, remark_rehype__WEBPACK_IMPORTED_MODULE_3__, rehype_highlight__WEBPACK_IMPORTED_MODULE_4__, remark_gfm__WEBPACK_IMPORTED_MODULE_5__, rehype_stringify__WEBPACK_IMPORTED_MODULE_6__, rehype_raw__WEBPACK_IMPORTED_MODULE_7__, unified__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-
-
-
-
-
-
-
-
-
-async function markdownToHtml(markdown) {
-    const result = await (0,unified__WEBPACK_IMPORTED_MODULE_8__.unified)().use(remark_parse__WEBPACK_IMPORTED_MODULE_2__["default"]).use(remark_gfm__WEBPACK_IMPORTED_MODULE_5__["default"]).use(remark_rehype__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        allowDangerousHtml: true
-    }).use(rehype_raw__WEBPACK_IMPORTED_MODULE_7__["default"]).use(rehype_external_links__WEBPACK_IMPORTED_MODULE_0__["default"], {
-        target: [
-            "_blank"
-        ]
-    }).use(rehype_highlight__WEBPACK_IMPORTED_MODULE_4__["default"]).use(rehype_document__WEBPACK_IMPORTED_MODULE_1__["default"]).use(rehype_stringify__WEBPACK_IMPORTED_MODULE_6__["default"]).process(markdown);
-    return result.toString();
-}
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
 /***/ 8448:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -316,14 +272,6 @@ async function getStaticProps({ params  }) {
         ]
     });
     const categoryList = await (0,_lib_api__WEBPACK_IMPORTED_MODULE_3__/* .getPostCategories */ .wx)();
-    // const content = await serialize(post.content, {
-    //   mdxOptions: {
-    //     rehypePlugins: [rehypeHighlight],
-    //     remarkPlugins: [remarkDirective, myRemarkPlugin],
-    //   },
-    // });
-    // console.log(post.content);
-    // console.log(mdxcontent);
     const content = await (0,_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z)(post.content || "");
     return {
         props: {
@@ -343,7 +291,6 @@ async function getStaticPaths() {
         ]
     });
     let paths = [];
-    // console.log(posts);
     for(let i in posts){
         const post = posts[i];
         paths.push({
@@ -563,6 +510,14 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ 1423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -576,14 +531,6 @@ module.exports = require("react");
 
 "use strict";
 module.exports = require("react/jsx-runtime");
-
-/***/ }),
-
-/***/ 6271:
-/***/ ((module) => {
-
-"use strict";
-module.exports = import("rehype-document");;
 
 /***/ }),
 
@@ -665,14 +612,6 @@ module.exports = import("unist-util-visit");;
 "use strict";
 module.exports = require("fs");
 
-/***/ }),
-
-/***/ 1017:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
-
 /***/ })
 
 };
@@ -682,7 +621,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [898,636,730,61,688], () => (__webpack_exec__(8448)));
+var __webpack_exports__ = __webpack_require__.X(0, [898,636,730,61,688,95], () => (__webpack_exec__(8448)));
 module.exports = __webpack_exports__;
 
 })();

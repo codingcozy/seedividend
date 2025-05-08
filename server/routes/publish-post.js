@@ -1,8 +1,9 @@
-const express = require("express");
+import express from "express";
+import { exec } from "child_process";
+import util from "util";
+import path from "path";
+
 const router = express.Router();
-const { exec } = require("child_process");
-const util = require("util");
-const path = require("path");
 
 const execPromise = util.promisify(exec);
 
@@ -52,4 +53,4 @@ router.post("/", async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

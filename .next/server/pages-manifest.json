@@ -2,11 +2,13 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/api/save-image-from-url": "pages/api/save-image-from-url.js",
   "/": "pages/index.js",
-  "/post": "pages/post.js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/admin": "pages/admin.js",
-  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/admin/create": "pages/admin/create.js",
+  "/admin/edit/[slug]": "pages/admin/edit/[slug].js",
+  "/post": "pages/post.js",
+  "/admin": "pages/admin.js",
+  "/post/[slug]": "pages/post/[slug].js",
+  "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
   "/404": "pages/404.html"
 }

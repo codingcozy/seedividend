@@ -325,6 +325,14 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ 1423:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -346,14 +354,6 @@ module.exports = require("react/jsx-runtime");
 
 "use strict";
 module.exports = require("fs");
-
-/***/ }),
-
-/***/ 1017:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
 
 /***/ })
 

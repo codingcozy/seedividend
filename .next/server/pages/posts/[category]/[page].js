@@ -173,6 +173,13 @@ module.exports = require("next/router");
 
 /***/ }),
 
+/***/ 1423:
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -191,13 +198,6 @@ module.exports = require("react/jsx-runtime");
 /***/ ((module) => {
 
 module.exports = require("fs");
-
-/***/ }),
-
-/***/ 1017:
-/***/ ((module) => {
-
-module.exports = require("path");
 
 /***/ })
 

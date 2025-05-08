@@ -149,15 +149,8 @@ export async function getStaticProps({ params }: Params) {
 
   const categoryList = await getPostCategories();
 
-  // const content = await serialize(post.content, {
-  //   mdxOptions: {
-  //     rehypePlugins: [rehypeHighlight],
-  //     remarkPlugins: [remarkDirective, myRemarkPlugin],
-  //   },
-  // });
-  // console.log(post.content);
-  // console.log(mdxcontent);
   const content = await markdownToHtml(post.content || "");
+
   return {
     props: {
       post: {
@@ -173,7 +166,6 @@ export async function getStaticProps({ params }: Params) {
 export async function getStaticPaths() {
   const posts: any = await getPosts({ fields: ["slug"] });
   let paths = [];
-  // console.log(posts);
 
   for (let i in posts) {
     const post = posts[i];

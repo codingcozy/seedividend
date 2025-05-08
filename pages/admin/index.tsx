@@ -72,7 +72,6 @@ export default function Post({ allPosts, categoryList }: Props) {
         }
 
         const result = await response.json();
-        console.log("Delete result:", result);
 
         // Update the posts list after deletion
         setPosts(posts.filter((post) => post.slug !== slug));
@@ -157,7 +156,6 @@ export default function Post({ allPosts, categoryList }: Props) {
 
         const result = await response.json();
         alert("블로그가 성공적으로 발행되었습니다.");
-        console.log("Publish result:", result);
       } catch (error) {
         console.error("Error publishing blog:", error);
         alert(`블로그 발행 중 오류가 발생했습니다: ${error instanceof Error ? error.message : "알 수 없는 오류"}`);
