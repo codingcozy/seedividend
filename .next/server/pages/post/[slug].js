@@ -181,7 +181,7 @@ function Post({ allPosts , post , content , categoryList  }) {
                                                         children: [
                                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                                                                 className: cx("date"),
-                                                                children: `Posted On ${moment__WEBPACK_IMPORTED_MODULE_11___default()(post.date).format("MMM D, YYYY")}`
+                                                                children: `작성일자 ${moment__WEBPACK_IMPORTED_MODULE_11___default()(post.date).format("DD/MM/YYYY")}`
                                                             }),
                                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                                                 className: cx("reading_time"),

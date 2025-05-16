@@ -36,11 +36,15 @@ export default function EditPost({ post, categoryList }: Props) {
         return;
       }
 
+      // 날짜 처리 방식 수정
+      // 기존 날짜를 그대로 유지하여 시간대 변환 문제 방지
+      const originalDate = post.date;
+
       const submitData = {
         ...postData,
         slug: post.slug,
         tags: "",
-        date: post.date,
+        date: originalDate, // 원본 날짜 문자열 그대로 전달
       };
 
       // 네트워크 요청 시 타임아웃 설정을 위한 컨트롤러
@@ -90,7 +94,7 @@ export default function EditPost({ post, categoryList }: Props) {
       <CustomHead type="home" />
       <PostEditor
         initialTitle={post?.title || ""}
-        initialContent={post?.content || ""} // 마크다운 원본을 그대로 사용
+        initialContent={post?.content || ""}
         initialCategory={post?.category || categoryList[0] || ""}
         initialDescription={post?.description || ""}
         initialCoverImage={post?.coverImage || ""}
@@ -98,6 +102,8 @@ export default function EditPost({ post, categoryList }: Props) {
         onSubmit={handleSubmit}
         submitButtonText="수정 완료"
         isSubmitting={isSubmitting}
+        isEditMode={true} // 편집 모드 활성화
+        originalSlug={post?.slug} // 원본 포스트 slug 전달
       />
     </>
   );

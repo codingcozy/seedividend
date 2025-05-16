@@ -66,7 +66,7 @@ export default function Post({ allPosts, post, content, categoryList }: Props) {
                   <div className={cx("textarea")}>
                     <span className={cx("writer")}>{AUTHOR}</span>
                     <span className={cx("info")}>
-                      <span className={cx("date")}>{`Posted On ${moment(post.date).format("MMM D, YYYY")}`}</span>
+                      <span className={cx("date")}>{`작성일자 ${moment(post.date).format("DD/MM/YYYY")}`}</span>
                       <span className={cx("reading_time")}>{post.readingTime} min read</span>
                     </span>
                   </div>

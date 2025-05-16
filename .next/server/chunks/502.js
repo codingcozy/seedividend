@@ -53,6 +53,8 @@ module.exports = {
 	"error_toast": "PostEditor_error_toast__FCzSv",
 	"fadeIn": "PostEditor_fadeIn__hK3nC",
 	"context_menu": "PostEditor_context_menu__ZIPVW",
+	"context_top_menu": "PostEditor_context_top_menu__S9XL0",
+	"context_top_menu_item": "PostEditor_context_top_menu_item__9XjaD",
 	"context_menu_item": "PostEditor_context_menu_item__XQxs8"
 };
 
@@ -75,10 +77,13 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3284);
 /* harmony import */ var classnames_bind__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames_bind__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8696);
-/* harmony import */ var _PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(8696);
+/* harmony import */ var _PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7095);
 /* harmony import */ var _lib_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4696);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(8728);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__]);
 _lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -88,8 +93,10 @@ _lib_markdownToHtml__WEBPACK_IMPORTED_MODULE_4__ = (__webpack_async_dependencies
 
 
 
-const cx = classnames_bind__WEBPACK_IMPORTED_MODULE_3___default().bind((_PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_6___default()));
-function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="" , initialDescription ="" , initialCoverImage ="" , initialTags ="" , categoryList =[] , onSubmit , submitButtonText , isSubmitting  }) {
+
+
+const cx = classnames_bind__WEBPACK_IMPORTED_MODULE_3___default().bind((_PostEditor_module_scss__WEBPACK_IMPORTED_MODULE_8___default()));
+function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="" , initialDescription ="" , initialCoverImage ="" , initialTags ="" , categoryList =[] , onSubmit , submitButtonText , isSubmitting , tempId ="" , isEditMode =false , originalSlug =""  }) {
     const [title, setTitle] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(initialTitle);
     const [content, setContent] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(initialContent);
     const [category, setCategory] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(initialCategory || categoryList[0] || "");
@@ -113,6 +120,62 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
     const previewContainerRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
     const isScrollingSyncRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(false);
     const contextMenuRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+    const [postId, setPostId] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(tempId || "");
+    const [lastSaved, setLastSaved] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
+    const [isAutoSaving, setIsAutoSaving] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [hasUnsavedChanges, setHasUnsavedChanges] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [isLoadingTempPost, setIsLoadingTempPost] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const [isUpdatingOriginal, setIsUpdatingOriginal] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_7__.useRouter)();
+    const autoSaveIntervalRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
+    const postIdRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(tempId || "");
+    // URL에서 tempId 파라미터를 확인하고 임시저장 포스트 로드
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        const { tempId: urlTempId  } = router.query;
+        // 편집 모드에서는 임시 저장 로드 기능 비활성화
+        if (!isEditMode && urlTempId && typeof urlTempId === "string") {
+            loadTempPost(urlTempId);
+        }
+    }, [
+        router.query,
+        isEditMode
+    ]);
+    // 임시저장 포스트 불러오는 함수
+    const loadTempPost = async (id)=>{
+        if (!id) return;
+        try {
+            setIsLoadingTempPost(true);
+            setError("");
+            const response = await fetch(`/api/temp-post/${id}`);
+            if (!response.ok) {
+                throw new Error("임시저장 포스트를 불러오는데 실패했습니다");
+            }
+            const { post  } = await response.json();
+            console.log(post);
+            if (post) {
+                setTitle(post.title || "");
+                setContent(post.content || "");
+                setCategory(post.category || categoryList[0] || "");
+                setDescription(post.description || "");
+                setCoverImage(post.coverImage || "");
+                setTags(post.tags || "");
+                setPostId(id);
+                postIdRef.current = id;
+                setLastSaved(new Date(post.date));
+                console.log("임시저장 포스트 로드 완료:", id);
+            }
+        } catch (err) {
+            console.error("임시저장 포스트 불러오기 오류:", err);
+            setError(err instanceof Error ? err.message : "임시저장 포스트를 불러오는 중 오류가 발생했습니다.");
+        } finally{
+            setIsLoadingTempPost(false);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        postIdRef.current = postId;
+    }, [
+        postId
+    ]);
     // 마크다운을 HTML로 변환
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         const convertMarkdown = async ()=>{
@@ -127,26 +190,398 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
     }, [
         content
     ]);
-    // 편집기 커서 위치로 프리뷰 스크롤 이동
+    // 컨텍스트 메뉴 외부 클릭 시 닫기 로직 개선
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        const handleClickOutside = (event)=>{
+            if (contextMenuRef.current && !contextMenuRef.current.contains(event.target)) {
+                setShowContextMenu(false);
+            }
+        };
+        if (showContextMenu) {
+            document.addEventListener("mousedown", handleClickOutside, true);
+            document.addEventListener("scroll", ()=>setShowContextMenu(false), true);
+        }
+        return ()=>{
+            document.removeEventListener("mousedown", handleClickOutside, true);
+            document.removeEventListener("scroll", ()=>setShowContextMenu(false), true);
+        };
+    }, [
+        showContextMenu
+    ]);
+    // ESC 키 누를 때 컨텍스트 메뉴 닫기
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        console.log(showContextMenu);
+        const handleEscKey = (event)=>{
+            if (event.key === "Escape" && showContextMenu) {
+                setShowContextMenu(false);
+            }
+        };
+        // 컨텍스트 메뉴가 열려있을 때만 이벤트 리스너 추가
+        if (showContextMenu) {
+            document.addEventListener("keydown", handleEscKey);
+        }
+        // 컴포넌트 언마운트 또는 deps 변경 시 이벤트 리스너 제거
+        return ()=>{
+            document.removeEventListener("keydown", handleEscKey);
+        };
+    }, [
+        showContextMenu
+    ]);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        if (initialTitle !== title || initialContent !== content) {
+            setHasUnsavedChanges(true);
+        } else {
+            setHasUnsavedChanges(false);
+        }
+    }, [
+        title,
+        content,
+        initialTitle,
+        initialContent
+    ]);
+    // 자동 저장 설정
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        if (autoSaveIntervalRef.current) {
+            clearInterval(autoSaveIntervalRef.current);
+        }
+        // 편집 모드일 때는 임시 저장 대신 원본 파일 업데이트 실행
+        const initialDelay = setTimeout(()=>{
+            if (title.trim() && content.trim() && !isSubmitting) {
+                if (isEditMode && originalSlug) {
+                    autoUpdateOriginal();
+                } else {
+                    autoSaveDraft();
+                }
+            }
+            autoSaveIntervalRef.current = setInterval(()=>{
+                if (title.trim() && content.trim() && !isSubmitting) {
+                    if (isEditMode && originalSlug) {
+                        autoUpdateOriginal();
+                    } else {
+                        autoSaveDraft();
+                    }
+                }
+            }, 3000); // 15초마다 자동저장
+        }, 5000); // 초기 5초 후 시작
+        return ()=>{
+            clearTimeout(initialDelay);
+            if (autoSaveIntervalRef.current) {
+                clearInterval(autoSaveIntervalRef.current);
+            }
+        };
+    }, [
+        title,
+        content,
+        isEditMode,
+        originalSlug,
+        isSubmitting
+    ]);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        const handleBeforeUnload = (e)=>{
+            if (hasUnsavedChanges) {
+                const message = "저장되지 않은 변경사항이 있습니다. 정말 페이지를 나가시겠습니까?";
+                e.returnValue = message;
+                return message;
+            }
+        };
+        window.addEventListener("beforeunload", handleBeforeUnload);
+        const handleRouteChange = (url)=>{
+            if (hasUnsavedChanges && !confirm("저장되지 않은 변경사항이 있습니다. 정말 페이지를 나가시겠습니까?")) {
+                router.events.emit("routeChangeError");
+                throw "Route change aborted";
+            }
+        };
+        router.events.on("routeChangeStart", handleRouteChange);
+        return ()=>{
+            window.removeEventListener("beforeunload", handleBeforeUnload);
+            router.events.off("routeChangeStart", handleRouteChange);
+        };
+    }, [
+        hasUnsavedChanges,
+        router
+    ]);
+    // 원본 파일 자동 업데이트
+    const autoUpdateOriginal = async ()=>{
+        if (!title.trim() || !content.trim() || isSubmitting || !isEditMode || !originalSlug) return;
+        try {
+            setIsUpdatingOriginal(true);
+            const response = await fetch(`http://localhost:3001/api/update-post?slug=${originalSlug}`, {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    slug: originalSlug,
+                    title,
+                    content,
+                    category,
+                    description,
+                    coverImage,
+                    tags
+                })
+            });
+            if (!response.ok) {
+                throw new Error("포스트 업데이트에 실패했습니다");
+            }
+            setLastSaved(new Date());
+            setHasUnsavedChanges(false);
+        } catch (err) {
+            console.error("포스트 업데이트 오류:", err);
+        // 중요한 에러는 사용자에게 알림, 자동 저장 실패는 조용히 로깅만
+        } finally{
+            setIsUpdatingOriginal(false);
+        }
+    };
+    // 임시 저장 (자동)
+    const autoSaveDraft = async ()=>{
+        // 편집 모드일 때는 임시저장 하지 않음
+        if (isEditMode || !title.trim() || !content.trim() || isSubmitting) return;
+        try {
+            setIsAutoSaving(true);
+            const currentPostId = postIdRef.current || (0,_lib_utils__WEBPACK_IMPORTED_MODULE_6__/* .generateHashId */ .X)();
+            const response = await fetch("/api/temp-save", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    id: currentPostId,
+                    title,
+                    content,
+                    category,
+                    description,
+                    coverImage,
+                    tags,
+                    date: new Date().toISOString()
+                })
+            });
+            if (!response.ok) {
+                throw new Error("임시저장에 실패했습니다");
+            }
+            const result = await response.json();
+            if (!postIdRef.current) {
+                postIdRef.current = currentPostId;
+                setPostId(currentPostId);
+            }
+            setLastSaved(new Date());
+            setHasUnsavedChanges(false);
+        } catch (err) {
+            console.error("임시저장 오류:", err);
+        } finally{
+            setIsAutoSaving(false);
+        }
+    };
+    const handleSaveDraft = async ()=>{
+        if (!title.trim() || !content.trim()) {
+            setError("제목과 내용을 입력해주세요.");
+            return;
+        }
+        try {
+            setError("");
+            // 편집 모드일 경우 원본 파일 업데이트
+            if (isEditMode && originalSlug) {
+                setIsUpdatingOriginal(true);
+                const response = await fetch(`http://localhost:3001/api/update-post?slug=${originalSlug}`, {
+                    method: "PUT",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        slug: originalSlug,
+                        title,
+                        content,
+                        category,
+                        description,
+                        coverImage,
+                        tags
+                    })
+                });
+                if (!response.ok) {
+                    throw new Error("포스트 업데이트에 실패했습니다");
+                }
+                setLastSaved(new Date());
+                setHasUnsavedChanges(false);
+                alert("변경사항이 저장되었습니다.");
+                setIsUpdatingOriginal(false);
+            } else {
+                // 일반 모드일 경우 임시저장
+                const currentPostId = postIdRef.current || (0,_lib_utils__WEBPACK_IMPORTED_MODULE_6__/* .generateHashId */ .X)();
+                const response = await fetch("/api/temp-save", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        id: currentPostId,
+                        title,
+                        content,
+                        category,
+                        description,
+                        coverImage,
+                        tags,
+                        date: new Date().toISOString()
+                    })
+                });
+                if (!response.ok) {
+                    throw new Error("임시저장에 실패했습니다");
+                }
+                const result = await response.json();
+                if (!postIdRef.current) {
+                    postIdRef.current = currentPostId;
+                    setPostId(currentPostId);
+                }
+                setLastSaved(new Date());
+                setHasUnsavedChanges(false);
+                alert(result.message || "임시저장이 완료되었습니다.");
+            }
+        } catch (err) {
+            console.error(isEditMode ? "포스트 업데이트 오류:" : "임시저장 오류:", err);
+            setError(err instanceof Error ? err.message : "저장 중 오류가 발생했습니다.");
+        }
+    };
+    // 임시저장된 포스트 선택 핸들러 - 기존 ID를 유지하도록 수정
+    const handleSelectTempPost = (id)=>{
+        console.log("임시저장 포스트 선택:", id);
+        router.push(`/admin/create?tempId=${id}`);
+    };
+    const wrapTextWithHtml = (tag, className)=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
+        const textValue = textarea.value;
+        const startPos = textarea.selectionStart;
+        const endPos = textarea.selectionEnd;
+        if (startPos !== endPos) {
+            const selectedText = textValue.substring(startPos, endPos);
+            const wrappedText = `<${tag} href="" class="${className}">${selectedText}</${tag}>`;
+            const beforeText = textValue.substring(0, startPos);
+            const afterText = textValue.substring(endPos);
+            const newContent = beforeText + wrappedText + afterText;
+            setContent(newContent);
+            setTimeout(()=>{
+                textarea.focus();
+                const hrefPos = beforeText.length + `<${tag} href="`.length;
+                textarea.setSelectionRange(hrefPos, hrefPos);
+            }, 0);
+        } else {
+            const startOfLine = textValue.lastIndexOf("\n", startPos - 1) + 1;
+            const endOfLine = textValue.indexOf("\n", startPos);
+            const actualEndOfLine = endOfLine === -1 ? textValue.length : endOfLine;
+            const lineText = textValue.substring(startOfLine, actualEndOfLine).trim();
+            const wrappedText = `<${tag} href="" class="${className}">${lineText}</${tag}>`;
+            const beforeLine = textValue.substring(0, startOfLine);
+            const afterLine = textValue.substring(actualEndOfLine);
+            const newContent = beforeLine + wrappedText + afterLine;
+            setContent(newContent);
+            setTimeout(()=>{
+                textarea.focus();
+                const hrefPos = beforeLine.length + `<${tag} href="`.length;
+                textarea.setSelectionRange(hrefPos, hrefPos);
+            }, 0);
+        }
+        setShowContextMenu(false);
+    };
+    const handleLink = ()=>{
+        wrapTextWithHtml("a", "post_hyper_link");
+    };
+    const handleBox = ()=>{
+        wrapTextWithHtml("div", "post_box");
+    };
+    const handleTextSelection = (e)=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
+        const selection = textarea.value.substring(textarea.selectionStart, textarea.selectionEnd);
+        if (selection && selection.length > 0) {
+            setSelectedLineText(selection);
+            let x = 0, y = 0;
+            if ("clientX" in e) {
+                x = e.clientX;
+                y = e.clientY;
+            } else {
+                const range = document.createRange();
+                const selection = window.getSelection();
+                if (selection && selection.rangeCount > 0) {
+                    range.selectNodeContents(textarea);
+                    const rect = range.getBoundingClientRect();
+                    x = rect.left;
+                    y = rect.top;
+                } else {
+                    const rect = textarea.getBoundingClientRect();
+                    x = rect.left + rect.width / 2;
+                    y = rect.top + rect.height / 2;
+                }
+            }
+            const menuWidth = 140;
+            x = Math.min(x, window.innerWidth - menuWidth - 20);
+            setMenuPosition({
+                x,
+                y
+            });
+            setShowContextMenu(true);
+        }
+    };
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        const textarea = textareaRef.current;
+        if (!textarea) return;
+        const handleSelectionChange = ()=>{
+            if (document.activeElement === textarea && textarea.selectionStart !== textarea.selectionEnd && !showContextMenu) {
+                const selection = textarea.value.substring(textarea.selectionStart, textarea.selectionEnd);
+                if (selection) {
+                    setSelectedLineText(selection);
+                    const rect = textarea.getBoundingClientRect();
+                    const lineHeight = parseInt(getComputedStyle(textarea).lineHeight) || 20;
+                    const cursorPosition = textarea.selectionEnd;
+                    const textBeforeCursor = textarea.value.substring(0, cursorPosition);
+                    const lines = textBeforeCursor.split("\n");
+                    const currentLineIndex = lines.length - 1;
+                    const y = rect.top + currentLineIndex * lineHeight + lineHeight;
+                    const x = rect.left + 20;
+                    const menuWidth = 140;
+                    const adjustedX = Math.min(x, window.innerWidth - menuWidth - 20);
+                    setMenuPosition({
+                        x: adjustedX,
+                        y
+                    });
+                    setShowContextMenu(true);
+                }
+            }
+        };
+        textarea.addEventListener("keyup", handleSelectionChange);
+        textarea.addEventListener("mouseup", (e)=>{
+            if (textarea.selectionStart !== textarea.selectionEnd) {
+                handleTextSelection(e);
+            }
+        });
+        return ()=>{
+            textarea.removeEventListener("keyup", handleSelectionChange);
+            textarea.removeEventListener("mouseup", handleTextSelection);
+        };
+    }, [
+        textareaRef.current,
+        showContextMenu
+    ]);
+    const handleDoubleClick = (e)=>{
+        const textarea = e.currentTarget;
+        const cursorPosition = textarea.selectionStart;
+        const textValue = textarea.value;
+        const startOfLine = textValue.lastIndexOf("\n", cursorPosition - 1) + 1;
+        let endOfLine = textValue.indexOf("\n", cursorPosition);
+        if (endOfLine === -1) endOfLine = textValue.length;
+        textarea.setSelectionRange(startOfLine, endOfLine);
+        const selectedText = textValue.substring(startOfLine, endOfLine);
+        setSelectedLineText(selectedText);
+        handleTextSelection(e);
+    };
     const scrollToText = (text)=>{
         const container = previewContainerRef.current;
         if (container) {
-            // container 안의 모든 p 요소를 가져옴
             const paragraphs = container.querySelectorAll("*");
             if (paragraphs.length > 0) {
-                // 각 p 요소에서 텍스트를 찾아 해당 위치로 스크롤 이동
                 for(let i = 0; i < paragraphs.length; i++){
                     console.log(paragraphs[i].textContent);
                     if (paragraphs[i].textContent?.includes(text)) {
-                        // console.log(i, paragraphs[i]);
-                        // 찾은 텍스트를 가진 요소로 스크롤
-                        // paragraphs[i].scrollIntoView({ behavior: "smooth", block: "start" });
-                        // 해당 요소의 위치를 계산
                         const rect = paragraphs[i].getBoundingClientRect();
                         const containerRect = container.getBoundingClientRect();
-                        // 요소의 스크롤 위치 계산
                         const scrollTop = rect.top - containerRect.top + container.scrollTop - 200;
-                        // 스크롤 위치로 이동
                         container.scrollTo({
                             top: scrollTop,
                             behavior: "smooth"
@@ -157,68 +592,161 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             }
         }
     };
-    // 편집기 클릭시 현재 라인 가져오는 함수
     const handleCursorPosition = (e)=>{
         const textarea = e.target;
         const cursorPosition = textarea.selectionStart;
-        // textarea 전체 텍스트
         const textValue = textarea.value;
         if (textValue.trim() === "") return;
-        // 커서 이전 텍스트 중에서 가장 가까운 줄바꿈 (\n)을 찾음
         const startOfLine = textValue.lastIndexOf("\n", cursorPosition - 1) + 1;
-        // 커서 이후 텍스트 중에서 가장 가까운 줄바꿈 (\n)을 찾음
         const endOfLine = textValue.indexOf("\n", cursorPosition);
-        // 줄 전체를 추출 (커서가 있는 줄의 텍스트)
         const currentLineText = textValue.substring(startOfLine, endOfLine === -1 ? textValue.length : endOfLine);
         console.log(currentLineText);
         scrollToText(removeHyphens(currentLineText));
-    // setCurrentLine(currentLineText);
     };
-    // 더블 클릭 이벤트 핸들러
-    const handleDoubleClick = (e)=>{
-        const textarea = e.currentTarget;
-        const cursorPosition = textarea.selectionStart;
+    const handleHeaderTwo = ()=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
         const textValue = textarea.value;
-        // 현재 라인의 시작과 끝 위치 찾기
-        const startOfLine = textValue.lastIndexOf("\n", cursorPosition - 1) + 1;
-        let endOfLine = textValue.indexOf("\n", cursorPosition);
-        if (endOfLine === -1) endOfLine = textValue.length;
-        // 라인 전체 선택
-        textarea.setSelectionRange(startOfLine, endOfLine);
-        // 선택된 텍스트 저장
-        const selectedText = textValue.substring(startOfLine, endOfLine);
-        setSelectedLineText(selectedText);
-        // 마우스 이벤트의 위치 정보를 사용하여 메뉴 위치 계산
-        // 이 방식은 textarea의 스크롤 위치에 관계없이 정확한 위치를 제공
-        const menuWidth = 140; // 컨텍스트 메뉴 너비
-        // 화면 경계 고려하여 메뉴 위치 조정
-        const x = Math.min(e.clientX, window.innerWidth - menuWidth - 20);
-        // 클릭 위치 아래에 메뉴 표시 (라인 높이의 절반 정도 아래)
-        const lineHeight = parseInt(getComputedStyle(textarea).lineHeight) || 20;
-        const y = e.clientY + lineHeight / 2;
-        setMenuPosition({
-            x,
-            y
-        });
-        setShowContextMenu(true);
-    };
-    // 컨텍스트 메뉴 외부 클릭 시 닫기
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        const handleClickOutside = (event)=>{
-            if (contextMenuRef.current && !contextMenuRef.current.contains(event.target)) {
-                setShowContextMenu(false);
-            }
-        };
-        if (showContextMenu) {
-            document.addEventListener("mousedown", handleClickOutside);
+        const startPos = textarea.selectionStart;
+        const startOfLine = textValue.lastIndexOf("\n", startPos - 1) + 1;
+        const endOfLine = textValue.indexOf("\n", startPos);
+        const actualEndOfLine = endOfLine === -1 ? textValue.length : endOfLine;
+        const lineText = textValue.substring(startOfLine, actualEndOfLine);
+        let newLineText = lineText.trim();
+        if (newLineText.startsWith("## ")) {
+            newLineText = newLineText.substring(3);
+        } else if (newLineText.startsWith("### ")) {
+            newLineText = "## " + newLineText.substring(4);
+        } else if (!newLineText.startsWith("## ")) {
+            newLineText = "## " + newLineText;
         }
-        return ()=>{
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, [
-        showContextMenu
-    ]);
-    // 이미지 생성 핸들러
+        const beforeLine = textValue.substring(0, startOfLine);
+        const afterLine = textValue.substring(actualEndOfLine);
+        const newContent = beforeLine + newLineText + afterLine;
+        setContent(newContent);
+        setShowContextMenu(false);
+        setTimeout(()=>{
+            textarea.focus();
+            const newCursorPos = startOfLine + newLineText.length;
+            textarea.setSelectionRange(newCursorPos, newCursorPos);
+        }, 0);
+    };
+    const handleHeaderThree = ()=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
+        const textValue = textarea.value;
+        const startPos = textarea.selectionStart;
+        const startOfLine = textValue.lastIndexOf("\n", startPos - 1) + 1;
+        const endOfLine = textValue.indexOf("\n", startPos);
+        const actualEndOfLine = endOfLine === -1 ? textValue.length : endOfLine;
+        const lineText = textValue.substring(startOfLine, actualEndOfLine);
+        let newLineText = lineText.trim();
+        if (newLineText.startsWith("### ")) {
+            newLineText = newLineText.substring(4);
+        } else if (newLineText.startsWith("## ")) {
+            newLineText = "### " + newLineText.substring(3);
+        } else if (!newLineText.startsWith("### ")) {
+            newLineText = "### " + newLineText;
+        }
+        const beforeLine = textValue.substring(0, startOfLine);
+        const afterLine = textValue.substring(actualEndOfLine);
+        const newContent = beforeLine + newLineText + afterLine;
+        setContent(newContent);
+        setShowContextMenu(false);
+        setTimeout(()=>{
+            textarea.focus();
+            const newCursorPos = startOfLine + newLineText.length;
+            textarea.setSelectionRange(newCursorPos, newCursorPos);
+        }, 0);
+    };
+    const handleBold = ()=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
+        const textValue = textarea.value;
+        const startPos = textarea.selectionStart;
+        const endPos = textarea.selectionEnd;
+        if (startPos !== endPos) {
+            const selectedText = textValue.substring(startPos, endPos);
+            const isBold = selectedText.startsWith("**") && selectedText.endsWith("**");
+            let newText;
+            if (isBold) {
+                newText = selectedText.substring(2, selectedText.length - 2);
+            } else {
+                newText = `**${selectedText}**`;
+            }
+            const beforeText = textValue.substring(0, startPos);
+            const afterText = textValue.substring(endPos);
+            const newContent = beforeText + newText + afterText;
+            setContent(newContent);
+            setTimeout(()=>{
+                textarea.focus();
+                const newCursorStart = startPos;
+                const newCursorEnd = startPos + newText.length;
+                textarea.setSelectionRange(newCursorStart, newCursorEnd);
+            }, 0);
+        } else {
+            const startOfLine = textValue.lastIndexOf("\n", startPos - 1) + 1;
+            const endOfLine = textValue.indexOf("\n", startPos);
+            const actualEndOfLine = endOfLine === -1 ? textValue.length : endOfLine;
+            const lineText = textValue.substring(startOfLine, actualEndOfLine);
+            const isBold = lineText.trim().startsWith("**") && lineText.trim().endsWith("**");
+            let newLineText;
+            if (isBold) {
+                newLineText = lineText.trim().substring(2, lineText.trim().length - 2);
+            } else {
+                newLineText = `**${lineText.trim()}**`;
+            }
+            const beforeLine = textValue.substring(0, startOfLine);
+            const afterLine = textValue.substring(actualEndOfLine);
+            const newContent = beforeLine + newLineText + afterLine;
+            setContent(newContent);
+        }
+        setShowContextMenu(false);
+    };
+    const handleUnderline = ()=>{
+        if (!textareaRef.current) return;
+        const textarea = textareaRef.current;
+        const textValue = textarea.value;
+        const startPos = textarea.selectionStart;
+        const endPos = textarea.selectionEnd;
+        if (startPos !== endPos) {
+            const selectedText = textValue.substring(startPos, endPos);
+            const isUnderline = selectedText.startsWith("<u>") && selectedText.endsWith("</u>");
+            let newText;
+            if (isUnderline) {
+                newText = selectedText.substring(3, selectedText.length - 4);
+            } else {
+                newText = `<u>${selectedText}</u>`;
+            }
+            const beforeText = textValue.substring(0, startPos);
+            const afterText = textValue.substring(endPos);
+            const newContent = beforeText + newText + afterText;
+            setContent(newContent);
+            setTimeout(()=>{
+                textarea.focus();
+                const newCursorStart = startPos;
+                const newCursorEnd = startPos + newText.length;
+                textarea.setSelectionRange(newCursorStart, newCursorEnd);
+            }, 0);
+        } else {
+            const startOfLine = textValue.lastIndexOf("\n", startPos - 1) + 1;
+            const endOfLine = textValue.indexOf("\n", startPos);
+            const actualEndOfLine = endOfLine === -1 ? textValue.length : endOfLine;
+            const lineText = textValue.substring(startOfLine, actualEndOfLine);
+            const isUnderline = lineText.trim().startsWith("<u>") && lineText.trim().endsWith("</u>");
+            let newLineText;
+            if (isUnderline) {
+                newLineText = lineText.trim().substring(3, lineText.trim().length - 4);
+            } else {
+                newLineText = `<u>${lineText.trim()}</u>`;
+            }
+            const beforeLine = textValue.substring(0, startOfLine);
+            const afterLine = textValue.substring(actualEndOfLine);
+            const newContent = beforeLine + newLineText + afterLine;
+            setContent(newContent);
+        }
+        setShowContextMenu(false);
+    };
     const handleGenerateImage = async ()=>{
         try {
             setError("");
@@ -237,7 +765,6 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             }
             const result = await response.json();
             if (result.success && result.data.localPath) {
-                // 이미지 URL을 에디터에 삽입
                 insertImageToEditor(result.data.localPath);
                 setShowContextMenu(false);
             } else {
@@ -250,7 +777,6 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             setIsUploading(false);
         }
     };
-    // 상세 내용 작성 핸들러
     const handleGenerateDetail = async ()=>{
         try {
             setError("");
@@ -269,13 +795,10 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             }
             const result = await response.json();
             if (result.success && result.data) {
-                // 현재 선택된 라인을 상세 내용으로 대체
                 if (!textareaRef.current) return;
                 const textarea = textareaRef.current;
                 const textValue = textarea.value;
-                // 선택된 라인의 시작과 끝 위치 찾기
                 const selectionEnd = textarea.selectionEnd;
-                // 상세 내용으로 대체
                 const beforeSelection = textValue.substring(0, selectionEnd);
                 const afterSelection = textValue.substring(selectionEnd);
                 const newContent = beforeSelection + `\n${result.data}\n` + afterSelection;
@@ -291,24 +814,18 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             setIsUploading(false);
         }
     };
-    // 프리뷰에 없는 편집기 텍스트 제거
     function removeHyphens(str) {
         str = str.replace(/-/g, "");
         str = str.replace(/#/g, "");
         str = str.trim();
         return str;
     }
-    // 클립보드 이미지 URL 처리 함수
     const handlePaste = async (e)=>{
         const clipboardData = e.clipboardData;
         const items = clipboardData.items;
-        // 클립보드 데이터 중 이미지 URL 확인
-        const text = clipboardData.getData("text");
-        const isImageUrl = text && (text.startsWith("http://") || text.startsWith("https://")) && (text.endsWith(".png") || text.endsWith(".jpg") || text.endsWith(".jpeg") || text.endsWith(".gif"));
-        // 클립보드에 이미지 파일이 있는지 확인
         for(let i = 0; i < items.length; i++){
             if (items[i].type.indexOf("image") !== -1) {
-                e.preventDefault(); // 기본 붙여넣기 방지
+                e.preventDefault();
                 const file = items[i].getAsFile();
                 if (file) {
                     try {
@@ -322,13 +839,14 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             }
         }
     };
-    // 이미지 업로드 함수
     const uploadImage = async (file)=>{
         setIsUploading(true);
         try {
             const formData = new FormData();
             formData.append("image", file);
-            const response = await fetch("http://localhost:3001/api/upload-image", {
+            const encodedTitle = encodeURIComponent(title || "untitled");
+            const uploadUrl = `http://localhost:3001/api/upload-image?postTitle=${encodedTitle}`;
+            const response = await fetch(uploadUrl, {
                 method: "POST",
                 body: formData
             });
@@ -344,7 +862,6 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             setIsUploading(false);
         }
     };
-    // 텍스트에 이미지 링크 삽입
     const insertImageToEditor = (imageUrl)=>{
         if (!textareaRef.current) return;
         const textarea = textareaRef.current;
@@ -354,14 +871,12 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
         const imageMarkdown = `![이미지](${imageUrl})`;
         const newContent = beforeText + imageMarkdown + afterText;
         setContent(newContent);
-        // 커서 위치 조정
         setTimeout(()=>{
             textarea.focus();
             const newCursorPos = endPos + imageMarkdown.length;
             textarea.setSelectionRange(newCursorPos, newCursorPos);
         }, 0);
     };
-    // 파일 업로드 처리
     const handleFileUpload = async (e)=>{
         const files = e.target.files;
         if (!files || files.length === 0) return;
@@ -371,13 +886,10 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
         } catch (err) {
             setError("이미지 업로드 중 오류가 발생했습니다.");
         } finally{
-            // 파일 인풋 초기화
             e.target.value = "";
         }
     };
-    // 폼 제출 처리
     const handleSubmitForm = async ()=>{
-        // Form validation
         if (!title.trim()) {
             setError("제목을 입력해주세요.");
             return;
@@ -423,7 +935,6 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             }
             const result = await response.json();
             if (result.success && result.data) {
-                // 현재 콘텐츠 앞부분에 목차 추가
                 const newContent = `## 목차\n${result.data}\n\n${content}`;
                 setContent(newContent);
             } else {
@@ -436,6 +947,9 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
             setIsGeneratingIndex(false);
         }
     };
+    const handleContextMenuClick = (e)=>{
+        e.stopPropagation();
+    };
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: cx("container"),
         children: [
@@ -447,7 +961,7 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                             href: "/admin",
                             className: cx("logo"),
-                            children: "SeedDividend"
+                            children: "돈되는 새싹"
                         })
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -561,7 +1075,53 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
                                             top: `${menuPosition.y}px`,
                                             zIndex: 1000
                                         },
+                                        onClick: handleContextMenuClick,
                                         children: [
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                                className: cx("context_top_menu"),
+                                                children: [
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleHeaderTwo,
+                                                        children: "h2"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleHeaderThree,
+                                                        children: "h3"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleBold,
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
+                                                            children: "B"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleUnderline,
+                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("u", {
+                                                            children: "U"
+                                                        })
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleLink,
+                                                        children: "L"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                                        type: "button",
+                                                        className: cx("context_top_menu_item"),
+                                                        onClick: handleBox,
+                                                        children: "ㅁ"
+                                                    })
+                                                ]
+                                            }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                                 className: cx("context_menu_item"),
                                                 onClick: handleGenerateDetail,
@@ -601,26 +1161,36 @@ function PostEditor({ initialTitle ="" , initialContent ="" , initialCategory ="
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: cx("editor_tools"),
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: cx("tool_buttons"),
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                                        className: cx("tool_btn"),
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                className: cx("tool_icon"),
-                                                children: "\uD83D\uDD0D"
-                                            }),
-                                            " 맞춤법 검사"
-                                        ]
-                                    })
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
+                                            className: cx("tool_btn"),
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                    className: cx("tool_icon"),
+                                                    children: "\uD83D\uDD0D"
+                                                }),
+                                                " 맞춤법 검사"
+                                            ]
+                                        }),
+                                        lastSaved && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                            className: cx("last_saved"),
+                                            children: [
+                                                "마지막 저장: ",
+                                                lastSaved.toLocaleTimeString()
+                                            ]
+                                        })
+                                    ]
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: cx("action_buttons"),
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             className: cx("draft_btn"),
-                                            disabled: isSubmitting,
-                                            children: "임시저장"
+                                            onClick: handleSaveDraft,
+                                            disabled: isSubmitting || isAutoSaving || isUpdatingOriginal || !title.trim() || !content.trim(),
+                                            children: isAutoSaving || isUpdatingOriginal ? "저장 중..." : isEditMode ? "변경사항 저장" : postIdRef.current ? "임시저장 업데이트" : "임시저장"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             className: cx("publish_btn"),
@@ -685,6 +1255,27 @@ __webpack_async_result__();
         isLoading
     };
 }
+
+
+/***/ }),
+
+/***/ 8728:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "X": () => (/* binding */ generateHashId)
+/* harmony export */ });
+/* harmony import */ var crypto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6113);
+/* harmony import */ var crypto__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(crypto__WEBPACK_IMPORTED_MODULE_0__);
+
+// 고유 해시 ID 생성 함수
+function generateHashId() {
+    const timestamp = new Date().getTime().toString();
+    const randomStr = Math.random().toString();
+    const data = timestamp + randomStr;
+    return crypto__WEBPACK_IMPORTED_MODULE_0___default().createHash("md5").update(data).digest("hex");
+} // 기타 유틸리티 함수들...
 
 
 /***/ })

@@ -1,6 +1,10 @@
+@import "../../scss/utils";
+@import url("//fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css");
+
 .post_content {
   font-size: 16px;
   line-height: 27px;
+  font-family: "Iropke Batang", serif !important;
 
   h1,
   h2,
@@ -19,11 +23,23 @@
   h2 {
     font-size: 28px;
     line-height: 35px;
+    padding: 8px 20px;
+    border-left: 10px solid $point-color2;
+    background-color: #eee;
+    counter-increment: h2-counter; /* h2가 나올 때마다 1 증가 */
+    counter-reset: h3-counter; /* h2 안에서 h3는 다시 0부터 시작 */
+
+    &::before {
+      content: counter(h2-counter) ". ";
+    }
   }
 
   h3 {
+    counter-increment: h3-counter;
     font-size: 23px;
     line-height: 28px;
+    color: $point-color;
+    font-weight: 700;
   }
 
   p {
@@ -115,5 +131,45 @@
     color: #3eaf7c;
     text-decoration: none;
     overflow-wrap: break-word;
+  }
+
+  u {
+    box-shadow: inset 0 -10px 0 #a0fc8e;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  :global {
+    a.post_hyper_link {
+      background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+      box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+      color: #fff;
+      display: block;
+      width: fit-content;
+      line-height: 55px;
+      padding: 0 40px;
+      border-radius: 100px;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: $fontFamilySystem;
+      background-size: 300% 100%;
+      transition: all 0.4s ease-in-out;
+      margin: 20px auto;
+
+      &:hover {
+        background-position: 100% 0;
+        moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+
+    div.post_box {
+      padding: 25px 20px 10px;
+      background-color: #f4f4f4;
+      border-radius: 0px 0px;
+      border: 1px solid #d9d9d9;
+      line-height: 1.8;
+    }
   }
 }

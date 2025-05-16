@@ -27,8 +27,8 @@ export const createMarkdownFilename = (title, date) => {
 export const generateMarkdownMetadata = (postData) => {
   const { title, description, coverImage, date, category, tags } = postData;
 
-  // ISO 형식의 날짜를 YYYY-MM-DD HH:MM 형식으로 변환
-  const formattedDate = new Date(date).toISOString().replace("T", " ").substring(0, 16);
+  // 날짜를 변환하지 않고 원본 문자열 그대로 사용
+  const originalDate = date;
 
   // 태그 배열을 쉼표로 구분된 문자열로 변환
   const tagString = Array.isArray(tags) ? tags.join(", ") : tags || "";
@@ -37,7 +37,7 @@ export const generateMarkdownMetadata = (postData) => {
 title: ${title}
 description: ${description || ""}
 coverImage: "${coverImage || ""}"
-date: ${formattedDate}
+date: ${originalDate}
 author:
   name: Admin
 ogImage:

@@ -8,9 +8,9 @@ export const LANG_LOCALE: { [key: string]: string } = {
   en: "en_US",
   ja: "ja_JP",
 };
-export const SITE_NAME = "Seedividend";
+export const SITE_NAME = "돈되는 새싹";
 export const SITE_URL = "https://seedividend.com/";
-export const AUTHOR = "Seedividend";
+export const AUTHOR = "돈되는 새싹";
 export const SITE_DESCRIPTION: { [key: string]: string } = {
   ko: `${SITE_NAME} 의 블로그 입니다.`,
   en: "I develop websites, games and apps with HTML, CSS and JS.",

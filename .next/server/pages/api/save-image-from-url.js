@@ -61,7 +61,7 @@ async function handler(req, res) {
         });
     }
     try {
-        const { imageUrl  } = req.body;
+        const { imageUrl , postTitle  } = req.body;
         if (!imageUrl) {
             return res.status(400).json({
                 success: false,
@@ -90,20 +90,24 @@ async function handler(req, res) {
         const buffer = Buffer.from(response.data, "binary");
         // 저장 경로 설정
         const publicDir = path__WEBPACK_IMPORTED_MODULE_1___default().join(process.cwd(), "public");
-        const tempDir = path__WEBPACK_IMPORTED_MODULE_1___default().join(publicDir, "assets", "temp", "img");
+        const imagesDir = path__WEBPACK_IMPORTED_MODULE_1___default().join(publicDir, "assets", "images");
         // 디렉토리 존재 확인 및 생성
-        if (!fs__WEBPACK_IMPORTED_MODULE_0___default().existsSync(tempDir)) {
-            fs__WEBPACK_IMPORTED_MODULE_0___default().mkdirSync(tempDir, {
+        if (!fs__WEBPACK_IMPORTED_MODULE_0___default().existsSync(imagesDir)) {
+            fs__WEBPACK_IMPORTED_MODULE_0___default().mkdirSync(imagesDir, {
                 recursive: true
             });
         }
-        // 고유한 파일 이름 생성
-        const fileName = `temp_image_${(0,uuid__WEBPACK_IMPORTED_MODULE_3__.v4)().substring(0, 8)}.${extension}`;
-        const filePath = path__WEBPACK_IMPORTED_MODULE_1___default().join(tempDir, fileName);
+        // 제목 가져오기 (없으면 기본값 사용)
+        const sanitizedTitle = postTitle ? postTitle.toLowerCase().replace(/[^\w\s\uAC00-\uD7A3-]/g, "").replace(/\s+/g, "-").replace(/--+/g, "-").trim().substring(0, 30) : "untitled";
+        // 현재 날짜와 고유 ID를 활용한 파일명 생성
+        const currentDate = new Date().toISOString().split("T")[0];
+        const uniqueId = (0,uuid__WEBPACK_IMPORTED_MODULE_3__.v4)().substring(0, 8);
+        const fileName = `${currentDate}-${sanitizedTitle}-${uniqueId}.${extension}`;
+        const filePath = path__WEBPACK_IMPORTED_MODULE_1___default().join(imagesDir, fileName);
         // 파일 저장
         fs__WEBPACK_IMPORTED_MODULE_0___default().writeFileSync(filePath, buffer);
         // 상대 경로 반환 (public 폴더 기준)
-        const relativePath = `/assets/temp/img/${fileName}`;
+        const relativePath = `/assets/images/${fileName}`;
         return res.status(200).json({
             success: true,
             localPath: relativePath,

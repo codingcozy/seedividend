@@ -3,7 +3,6 @@ import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
 import { generateMarkdownMetadata } from "../utils/markdown-utils.js";
-import { moveImagesToPermStorage } from "./create-post.js";
 
 const router = express.Router();
 
@@ -20,15 +19,15 @@ router.put("/", async (req, res) => {
     }
 
     // 파일에 업데이트할 데이터 가져오기
-    const { title, content, category, description, coverImage, tags, date } = req.body;
+    const { title, content, category, description, coverImage, tags } = req.body;
+
+    // 날짜는 클라이언트에서 받지 않고 항상 기존 파일의 날짜 사용
+    // date 속성을 req.body에서 제외
 
     // 필수 필드 검증
     if (!title || !content) {
       return res.status(400).json({ message: "제목과 내용은 필수 항목입니다." });
     }
-
-    // 임시 이미지 경로 처리
-    const processedContent = await moveImagesToPermStorage(content, title);
 
     // 기존 파일 경로 확인
     const files = await fs.readdir(`${postsDirectory}/${category}`);
@@ -44,18 +43,24 @@ router.put("/", async (req, res) => {
     const fileContent = await fs.readFile(filePath, "utf8");
     const { data: existingFrontmatter } = matter(fileContent);
 
-    // 게시물 데이터 구성
+    // 날짜 처리를 명확히 합니다
+    console.log("기존 날짜:", existingFrontmatter.date);
+
+    // 원본 날짜 문자열을 그대로 유지
+    const originalDate = existingFrontmatter.date;
+
+    // 게시물 데이터 구성 - 날짜는 문자열 그대로 사용
     const postData = {
       title,
       description: description || "",
       coverImage: coverImage || "",
-      date: date || existingFrontmatter.date,
+      date: originalDate, // 원본 날짜 문자열 사용
       category: category || existingFrontmatter.category || "기타",
       tags: tags || existingFrontmatter.tag || "",
     };
 
     // textarea에서 직접 마크다운 콘텐츠 사용
-    const updatedContent = generateMarkdownMetadata(postData) + processedContent;
+    const updatedContent = generateMarkdownMetadata(postData) + content;
 
     // 파일에 저장
     await fs.writeFile(filePath, updatedContent, "utf8");

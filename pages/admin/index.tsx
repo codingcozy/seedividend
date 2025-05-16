@@ -6,9 +6,10 @@ import classnames from "classnames/bind";
 import PostType from "@/interfaces/post";
 import CustomHead from "@/components/CustomHead";
 import { CATEGORY, SITE_NAME } from "@/lib/constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import useAdminAuth from "@/hooks/useAdminAuth";
+import Modal from "@/components/Modal";
 
 const cx = classnames.bind(style);
 
@@ -19,6 +20,14 @@ type Props = {
   preview?: boolean;
 };
 
+// 임시저장된 포스트 타입 정의
+type TempPostType = {
+  id: string;
+  title: string;
+  date: string;
+  preview: string;
+};
+
 export default function Post({ allPosts, categoryList }: Props) {
   const router = useRouter();
   const title = `${SITE_NAME} | Post`;
@@ -26,6 +35,11 @@ export default function Post({ allPosts, categoryList }: Props) {
   const [deletingPosts, setDeletingPosts] = useState<string[]>([]);
   const [posts, setPosts] = useState<PostType[]>(allPosts);
   const [isPublishing, setIsPublishing] = useState(false);
+  const [showTempModal, setShowTempModal] = useState(false);
+  const [tempPosts, setTempPosts] = useState<TempPostType[]>([]);
+  const [isLoadingTemp, setIsLoadingTemp] = useState(false);
+  const [deletingTempPosts, setDeletingTempPosts] = useState<string[]>([]);
+  const [isDeletingAllTemp, setIsDeletingAllTemp] = useState(false);
 
   // Use the admin auth hook
   const { isAuthorized, isLoading } = useAdminAuth();
@@ -167,6 +181,111 @@ export default function Post({ allPosts, categoryList }: Props) {
 
   const isDeleting = (slug: string) => deletingPosts.includes(slug);
 
+  // 임시저장 포스트 목록 가져오기 함수 개선
+  const fetchTempPosts = async () => {
+    try {
+      const response = await fetch("/api/temp-posts");
+
+      if (!response.ok) {
+        throw new Error("임시저장 포스트 조회 실패");
+      }
+
+      const data = await response.json();
+      setTempPosts(data.posts || []);
+      return data.posts;
+    } catch (error) {
+      console.error("임시저장 포스트 목록 조회 오류:", error);
+      return [];
+    }
+  };
+
+  // 임시저장 포스트 선택 핸들러
+  const handleSelectTempPost = (id: string) => {
+    router.push(`/admin/create?tempId=${id}`);
+  };
+
+  // 임시저장 포스트 삭제 핸들러
+  const handleDeleteTempPost = async (e: React.MouseEvent, id: string) => {
+    e.stopPropagation(); // 클릭 이벤트 전파 방지 - 부모 요소의 클릭 이벤트 실행 방지
+
+    if (window.confirm("이 임시저장 포스트를 삭제하시겠습니까?")) {
+      try {
+        setDeletingTempPosts((prev) => [...prev, id]);
+
+        const response = await fetch(`/api/temp-post/${id}`, {
+          method: "DELETE",
+        });
+
+        if (!response.ok) {
+          throw new Error("임시저장 포스트 삭제에 실패했습니다.");
+        }
+
+        // 성공 시 목록에서 제거
+        setTempPosts((prevPosts) => prevPosts.filter((post) => post.id !== id));
+      } catch (error) {
+        console.error("임시저장 포스트 삭제 오류:", error);
+        alert("임시저장 포스트를 삭제하는 중 오류가 발생했습니다.");
+      } finally {
+        setDeletingTempPosts((prev) => prev.filter((postId) => postId !== id));
+      }
+    }
+  };
+
+  // 모든 임시저장 포스트 삭제 핸들러
+  const handleDeleteAllTempPosts = async () => {
+    if (tempPosts.length === 0) {
+      alert("삭제할 임시저장 포스트가 없습니다.");
+      return;
+    }
+
+    if (window.confirm(`모든 임시저장 포스트(${tempPosts.length}개)를 삭제하시겠습니까?`)) {
+      try {
+        setIsDeletingAllTemp(true);
+
+        const response = await fetch("/api/temp-posts/delete-all", {
+          method: "DELETE",
+        });
+
+        if (!response.ok) {
+          throw new Error("임시저장 포스트 전체 삭제에 실패했습니다.");
+        }
+
+        const result = await response.json();
+
+        // 목록 비우기
+        setTempPosts([]);
+
+        alert(result.message || `${result.deletedCount}개의 임시저장 포스트가 삭제되었습니다.`);
+      } catch (error) {
+        console.error("임시저장 포스트 전체 삭제 오류:", error);
+        alert("임시저장 포스트를 삭제하는 중 오류가 발생했습니다.");
+      } finally {
+        setIsDeletingAllTemp(false);
+      }
+    }
+  };
+
+  // 임시저장 포스트 삭제 중인지 확인
+  const isDeleteTemp = (id: string) => deletingTempPosts.includes(id);
+
+  // 새 포스트 작성 클릭 핸들러 개선
+  const handleCreateNewPost = () => {
+    // 임시저장된 포스트가 있는지 확인 후 바로 모달 표시
+    setIsLoadingTemp(true);
+    console.log("Test");
+    fetchTempPosts()
+      .then(() => {
+        setShowTempModal(true);
+      })
+      .catch((error) => {
+        console.error("임시저장 포스트 조회 실패:", error);
+        router.push("/admin/create");
+      })
+      .finally(() => {
+        setIsLoadingTemp(false);
+      });
+  };
+
   // Show loading or unauthorized message
   if (isLoading) {
     return <div>Loading...</div>;
@@ -190,9 +309,9 @@ export default function Post({ allPosts, categoryList }: Props) {
                 <button onClick={handlePublish} className={cx("publish_btn")} disabled={isPublishing}>
                   {isPublishing ? "발행 중..." : "발행"}
                 </button>
-                <Link href="/admin/create" className={cx("create_btn")}>
+                <button onClick={handleCreateNewPost} className={cx("create_btn")}>
                   새 포스트 작성
-                </Link>
+                </button>
 
                 {selectedPosts.length > 0 && (
                   <button
@@ -259,6 +378,72 @@ export default function Post({ allPosts, categoryList }: Props) {
               {posts.length === 0 && <div className={cx("no_posts")}>포스트가 없습니다.</div>}
             </div>
           </div>
+
+          {/* 임시저장 포스트 모달 */}
+          {showTempModal && (
+            <Modal onClose={() => setShowTempModal(false)} title="임시저장된 포스트">
+              {isLoadingTemp ? (
+                <div className={cx("loading_spinner")}>
+                  <div className={cx("spinner")}></div>
+                  <p>임시저장 포스트를 불러오는 중...</p>
+                </div>
+              ) : tempPosts && tempPosts.length > 0 ? (
+                <div className={cx("temp_post_list")}>
+                  <p className={cx("temp_post_guide")}>
+                    계속해서 작성하실 임시저장 포스트를 선택하거나, 새로 작성하실 수 있습니다.
+                  </p>
+                  <div className={cx("temp_post_wrap")}>
+                    {tempPosts.map((post) => (
+                      <div key={post.id} className={cx("temp_post_item")} onClick={() => handleSelectTempPost(post.id)}>
+                        <div className={cx("temp_post_content")}>
+                          <h3 className={cx("temp_post_title")}>{post.title}</h3>
+                          <p className={cx("temp_post_date")}>{new Date(post.date).toLocaleString()}</p>
+                        </div>
+                        <button
+                          className={cx("temp_delete_btn")}
+                          onClick={(e) => handleDeleteTempPost(e, post.id)}
+                          disabled={isDeleteTemp(post.id)}
+                        >
+                          {isDeleteTemp(post.id) ? "삭제 중..." : "삭제"}
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                  <div className={cx("temp_action_buttons")}>
+                    <button
+                      className={cx("delete_all_btn")}
+                      onClick={handleDeleteAllTempPosts}
+                      disabled={isDeletingAllTemp}
+                    >
+                      {isDeletingAllTemp ? "삭제 중..." : "전체 삭제"}
+                    </button>
+                    <button
+                      className={cx("new_post_btn")}
+                      onClick={() => {
+                        setShowTempModal(false);
+                        router.push("/admin/create");
+                      }}
+                    >
+                      새로 작성하기
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <div className={cx("no_temp_posts")}>
+                  <p>임시저장된 포스트가 없습니다.</p>
+                  <button
+                    className={cx("new_post_btn")}
+                    onClick={() => {
+                      setShowTempModal(false);
+                      router.push("/admin/create");
+                    }}
+                  >
+                    새로 작성하기
+                  </button>
+                </div>
+              )}
+            </Modal>
+          )}
         </>
       )}
     </>

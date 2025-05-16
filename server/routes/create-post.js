@@ -1,81 +1,17 @@
 import express from "express";
 import fs from "fs";
 import path from "path";
-import { createMarkdownFilename, generateMarkdownMetadata, sanitizeTitle } from "../utils/markdown-utils.js";
+import { createMarkdownFilename, generateMarkdownMetadata } from "../utils/markdown-utils.js";
 
 const router = express.Router();
 
 // 데이터 저장 경로 설정
 const markdownDir = path.join(process.cwd(), "_posts");
-const imagesDir = path.join(process.cwd(), "public", "assets", "images");
 
-// 텍스트 내 임시 이미지 경로를 영구 저장소로 이동하는 함수
-export const moveImagesToPermStorage = (content, slug) => {
-  // 마크다운 이미지 형식 ![대체텍스트](이미지URL) 찾기
-  const imgRegex = /!\[(.*?)\]\(([^)]+)\)/g;
-  let match;
-  const tempImagePaths = [];
-  const newImagePaths = [];
-
-  // 제목 정규화
-  const sanitizedTitle = sanitizeTitle(slug);
-
-  // 콘텐츠에서 모든 이미지 경로 추출
-  let newContent = content;
-  let imageIndex = 0;
-
-  while ((match = imgRegex.exec(content)) !== null) {
-    const altText = match[1];
-    const imgSrc = match[2];
-
-    // 임시 이미지 경로인 경우만 처리
-    if (imgSrc.includes("/assets/temp/img/")) {
-      const originalFileName = path.basename(imgSrc);
-      const fileExt = path.extname(originalFileName);
-
-      // temp_img 부분을 제목으로 대체한 새 파일명 생성
-
-      const tempImagePath = path.join(process.cwd(), "public", imgSrc);
-
-      // 날짜 기반 폴더 생성
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, "0");
-      const date = String(now.getDate() + 1).padStart(2, "0");
-      const fullDate = `${year}-${month}-${date}`;
-      const newFileName = `${fullDate}-${sanitizedTitle}-${imageIndex++}${fileExt}`;
-
-      // 폴더 생성
-      if (!fs.existsSync(imagesDir)) {
-        fs.mkdirSync(imagesDir, { recursive: true });
-      }
-
-      // 새 이미지 경로 및 파일명
-      const newImagePath = path.join(imagesDir, newFileName);
-      const relativeImagePath = `/assets/images/${newFileName}`;
-
-      // 템프 경로와 새 경로 저장
-      tempImagePaths.push(tempImagePath);
-      newImagePaths.push(newImagePath);
-
-      // 콘텐츠 내 이미지 경로 교체 (마크다운 형식 유지)
-      newContent = newContent.replace(`![${altText}](${imgSrc})`, `![${altText}](${relativeImagePath})`);
-    }
-  }
-
-  // 실제 파일 이동
-  tempImagePaths.forEach((tempPath, index) => {
-    try {
-      // 이미지 파일 이동
-      fs.copyFileSync(tempPath, newImagePaths[index]);
-      fs.unlinkSync(tempPath); // 임시 파일 삭제
-    } catch (error) {
-      console.error("이미지 이동 중 오류 발생:", error);
-      // 오류가 발생해도 계속 진행
-    }
-  });
-
-  return newContent;
+// 이미지 경로가 이미 최종 경로인지 확인하고 콘텐츠만 반환하는 함수
+export const processImagesInContent = (content) => {
+  // 이미지가 이미 정확한 위치에 있으므로 콘텐츠를 그대로 반환
+  return content;
 };
 
 // 게시물 생성 엔드포인트
@@ -88,8 +24,8 @@ router.post("/", async (req, res) => {
       return res.status(400).json({ error: "제목, 내용, 슬러그는 필수입니다." });
     }
 
-    // 이미지 경로 처리 - 임시 이미지를 영구 저장소로 이동
-    const processedContent = moveImagesToPermStorage(content, title);
+    // 이미지는 이미 최종 경로에 저장되어 있으므로 추가 처리 없이 사용
+    const processedContent = content;
 
     // 게시물 데이터 구성
     const postData = {
@@ -101,7 +37,7 @@ router.post("/", async (req, res) => {
       tags: tags || [],
       date: date || new Date().toISOString(),
       author: {
-        name: "Seedividend",
+        name: "돈되는 새싹",
         picture: "/assets/blog/authors/admin.jpeg",
       },
     };

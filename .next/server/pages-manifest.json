@@ -1,14 +1,18 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
+  "/api/temp-post/[id]": "pages/api/temp-post/[id].js",
   "/api/save-image-from-url": "pages/api/save-image-from-url.js",
+  "/api/temp-posts": "pages/api/temp-posts.js",
+  "/api/temp-posts/delete-all": "pages/api/temp-posts/delete-all.js",
+  "/api/temp-save": "pages/api/temp-save.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js",
   "/admin/create": "pages/admin/create.js",
   "/admin/edit/[slug]": "pages/admin/edit/[slug].js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/": "pages/index.js",
   "/post": "pages/post.js",
-  "/admin": "pages/admin.js",
   "/posts/[category]/[page]": "pages/posts/[category]/[page].js",
+  "/post/[slug]": "pages/post/[slug].js",
+  "/admin": "pages/admin.js",
   "/404": "pages/404.html"
 }

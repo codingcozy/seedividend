@@ -703,7 +703,7 @@ const PostList = ({ postList  })=>{
             className: cx("post_list"),
             children: postList.map((post, i)=>{
                 const fromNow = moment__WEBPACK_IMPORTED_MODULE_5___default()(post.date, "YYYYMMDD-HH:mm:ss").fromNow();
-                const date = String(fromNow).includes("hours") ? fromNow : moment__WEBPACK_IMPORTED_MODULE_5___default()(post.date).format("MMM D, YYYY");
+                const date = String(fromNow).includes("hours") ? fromNow : moment__WEBPACK_IMPORTED_MODULE_5___default()(post.date).format("DD / MM / YYYY");
                 return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                     className: cx("post_item"),
                     href: `/post/${post.slug}`,
@@ -745,37 +745,12 @@ const PostList = ({ postList  })=>{
                                     className: cx("title"),
                                     children: post.title
                                 }),
-                                isClient && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                isClient && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                     className: cx("reaction_area"),
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            className: cx("reaction_list"),
-                                            children: generateRandomReaction()
-                                        }),
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: cx("comment"),
-                                            children: [
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    width: "24",
-                                                    height: "24",
-                                                    role: "img",
-                                                    "aria-labelledby": "a9r26cjkehaw9aroeeenqzf7sqj1obph",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                                                            id: "a9r26cjkehaw9aroeeenqzf7sqj1obph",
-                                                            children: "Comments"
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                            d: "M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"
-                                                        })
-                                                    ]
-                                                }),
-                                                randomCommentCount(),
-                                                " comment"
-                                            ]
-                                        })
-                                    ]
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: cx("reaction_list"),
+                                        children: generateRandomReaction()
+                                    })
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: cx("meta"),
@@ -986,9 +961,9 @@ const LANG_LOCALE = {
     en: "en_US",
     ja: "ja_JP"
 };
-const SITE_NAME = "Seedividend";
+const SITE_NAME = "돈되는 새싹";
 const SITE_URL = "https://seedividend.com/";
-const AUTHOR = "Seedividend";
+const AUTHOR = "돈되는 새싹";
 const SITE_DESCRIPTION = {
     ko: `${SITE_NAME} 의 블로그 입니다.`,
     en: "I develop websites, games and apps with HTML, CSS and JS.",

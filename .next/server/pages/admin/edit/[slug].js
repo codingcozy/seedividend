@@ -49,11 +49,14 @@ function EditPost({ post , categoryList  }) {
                 setIsSubmitting(false);
                 return;
             }
+            // 날짜 처리 방식 수정
+            // 기존 날짜를 그대로 유지하여 시간대 변환 문제 방지
+            const originalDate = post.date;
             const submitData = {
                 ...postData,
                 slug: post.slug,
                 tags: "",
-                date: post.date
+                date: originalDate
             };
             // 네트워크 요청 시 타임아웃 설정을 위한 컨트롤러
             const controller = new AbortController();
@@ -109,7 +112,9 @@ function EditPost({ post , categoryList  }) {
                 categoryList: categoryList,
                 onSubmit: handleSubmit,
                 submitButtonText: "수정 완료",
-                isSubmitting: isSubmitting
+                isSubmitting: isSubmitting,
+                isEditMode: true,
+                originalSlug: post?.slug
             })
         ]
     });
@@ -404,6 +409,13 @@ module.exports = import("remark-rehype");;
 /***/ ((module) => {
 
 module.exports = import("unified");;
+
+/***/ }),
+
+/***/ 6113:
+/***/ ((module) => {
+
+module.exports = require("crypto");
 
 /***/ }),
 
